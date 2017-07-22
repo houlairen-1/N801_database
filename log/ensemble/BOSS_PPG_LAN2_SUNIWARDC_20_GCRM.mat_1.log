@@ -1,0 +1,1933 @@
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : automatic (min 25, max 500, length 50, eps 0.00500)
+#  - d_sub : automatic (Eoob tolerance 0.0200, step 200)
+#  - Seed 1 (subspaces) : 225655811
+#  - Seed 2 (bootstrap) : 90822966
+# -------------------------
+
+ - d_sub 200 : OOB 0.4476 : L 1 : T 0.0 sec
+ - d_sub 200 : OOB 0.4146 : L 2 : T 0.1 sec
+ - d_sub 200 : OOB 0.3918 : L 3 : T 0.1 sec
+ - d_sub 200 : OOB 0.3809 : L 4 : T 0.2 sec
+ - d_sub 200 : OOB 0.3732 : L 5 : T 0.2 sec
+ - d_sub 200 : OOB 0.3690 : L 6 : T 0.2 sec
+ - d_sub 200 : OOB 0.3588 : L 7 : T 0.3 sec
+ - d_sub 200 : OOB 0.3551 : L 8 : T 0.3 sec
+ - d_sub 200 : OOB 0.3542 : L 9 : T 0.4 sec
+ - d_sub 200 : OOB 0.3492 : L 10 : T 0.4 sec
+ - d_sub 200 : OOB 0.3496 : L 11 : T 0.5 sec
+ - d_sub 200 : OOB 0.3480 : L 12 : T 0.5 sec
+ - d_sub 200 : OOB 0.3457 : L 13 : T 0.5 sec
+ - d_sub 200 : OOB 0.3452 : L 14 : T 0.6 sec
+ - d_sub 200 : OOB 0.3437 : L 15 : T 0.6 sec
+ - d_sub 200 : OOB 0.3417 : L 16 : T 0.6 sec
+ - d_sub 200 : OOB 0.3380 : L 17 : T 0.7 sec
+ - d_sub 200 : OOB 0.3377 : L 18 : T 0.7 sec
+ - d_sub 200 : OOB 0.3367 : L 19 : T 0.8 sec
+ - d_sub 200 : OOB 0.3353 : L 20 : T 0.8 sec
+ - d_sub 200 : OOB 0.3336 : L 21 : T 0.8 sec
+ - d_sub 200 : OOB 0.3367 : L 22 : T 0.9 sec
+ - d_sub 200 : OOB 0.3353 : L 23 : T 0.9 sec
+ - d_sub 200 : OOB 0.3354 : L 24 : T 0.9 sec
+ - d_sub 200 : OOB 0.3346 : L 25 : T 1.0 sec
+ - d_sub 200 : OOB 0.3333 : L 26 : T 1.0 sec
+ - d_sub 200 : OOB 0.3300 : L 27 : T 1.1 sec
+ - d_sub 200 : OOB 0.3299 : L 28 : T 1.1 sec
+ - d_sub 200 : OOB 0.3309 : L 29 : T 1.1 sec
+ - d_sub 200 : OOB 0.3304 : L 30 : T 1.2 sec
+ - d_sub 200 : OOB 0.3300 : L 31 : T 1.2 sec
+ - d_sub 200 : OOB 0.3317 : L 32 : T 1.2 sec
+ - d_sub 200 : OOB 0.3336 : L 33 : T 1.3 sec
+ - d_sub 200 : OOB 0.3307 : L 34 : T 1.3 sec
+ - d_sub 200 : OOB 0.3298 : L 35 : T 1.4 sec
+ - d_sub 200 : OOB 0.3302 : L 36 : T 1.4 sec
+ - d_sub 200 : OOB 0.3294 : L 37 : T 1.4 sec
+ - d_sub 200 : OOB 0.3303 : L 38 : T 1.5 sec
+ - d_sub 200 : OOB 0.3301 : L 39 : T 1.5 sec
+ - d_sub 200 : OOB 0.3286 : L 40 : T 1.5 sec
+ - d_sub 200 : OOB 0.3297 : L 41 : T 1.6 sec
+ - d_sub 200 : OOB 0.3289 : L 42 : T 1.6 sec
+ - d_sub 200 : OOB 0.3294 : L 43 : T 1.7 sec
+ - d_sub 200 : OOB 0.3304 : L 44 : T 1.7 sec
+ - d_sub 200 : OOB 0.3313 : L 45 : T 1.7 sec
+ - d_sub 200 : OOB 0.3302 : L 46 : T 1.8 sec
+ - d_sub 200 : OOB 0.3279 : L 47 : T 1.8 sec
+ - d_sub 200 : OOB 0.3275 : L 48 : T 1.9 sec
+ - d_sub 200 : OOB 0.3283 : L 49 : T 1.9 sec
+ - d_sub 200 : OOB 0.3286 : L 50 : T 1.9 sec
+ - d_sub 200 : OOB 0.3267 : L 51 : T 2.0 sec
+ - d_sub 200 : OOB 0.3259 : L 52 : T 2.0 sec
+ - d_sub 200 : OOB 0.3274 : L 53 : T 2.0 sec
+ - d_sub 200 : OOB 0.3238 : L 54 : T 2.1 sec
+ - d_sub 200 : OOB 0.3243 : L 55 : T 2.1 sec
+ - d_sub 200 : OOB 0.3246 : L 56 : T 2.1 sec
+ - d_sub 200 : OOB 0.3230 : L 57 : T 2.2 sec
+ - d_sub 200 : OOB 0.3244 : L 58 : T 2.2 sec
+ - d_sub 200 : OOB 0.3262 : L 59 : T 2.3 sec
+ - d_sub 200 : OOB 0.3251 : L 60 : T 2.3 sec
+ - d_sub 200 : OOB 0.3237 : L 61 : T 2.3 sec
+ - d_sub 200 : OOB 0.3238 : L 62 : T 2.4 sec
+ - d_sub 200 : OOB 0.3241 : L 63 : T 2.4 sec
+ - d_sub 200 : OOB 0.3260 : L 64 : T 2.5 sec
+ - d_sub 200 : OOB 0.3244 : L 65 : T 2.5 sec
+ - d_sub 200 : OOB 0.3252 : L 66 : T 2.5 sec
+ - d_sub 200 : OOB 0.3247 : L 67 : T 2.6 sec
+ - d_sub 200 : OOB 0.3233 : L 68 : T 2.6 sec
+ - d_sub 200 : OOB 0.3249 : L 69 : T 2.6 sec
+ - d_sub 200 : OOB 0.3240 : L 70 : T 2.7 sec
+ - d_sub 200 : OOB 0.3232 : L 71 : T 2.7 sec
+ - d_sub 200 : OOB 0.3233 : L 72 : T 2.8 sec
+ - d_sub 200 : OOB 0.3242 : L 73 : T 2.8 sec
+ - d_sub 200 : OOB 0.3251 : L 74 : T 2.8 sec
+ - d_sub 200 : OOB 0.3254 : L 75 : T 2.9 sec
+ - d_sub 200 : OOB 0.3257 : L 76 : T 2.9 sec
+ - d_sub 200 : OOB 0.3236 : L 77 : T 2.9 sec
+ - d_sub 200 : OOB 0.3234 : L 78 : T 3.0 sec
+ - d_sub 200 : OOB 0.3236 : L 79 : T 3.0 sec
+ - d_sub 200 : OOB 0.3261 : L 80 : T 3.1 sec
+ - d_sub 200 : OOB 0.3261 : L 81 : T 3.1 sec
+ - d_sub 200 : OOB 0.3241 : L 82 : T 3.1 sec
+ - d_sub 200 : OOB 0.3259 : L 83 : T 3.2 sec
+ - d_sub 200 : OOB 0.3238 : L 84 : T 3.2 sec
+ - d_sub 200 : OOB 0.3229 : L 85 : T 3.2 sec
+ - d_sub 200 : OOB 0.3232 : L 86 : T 3.3 sec
+ - d_sub 200 : OOB 0.3239 : L 87 : T 3.3 sec
+ - d_sub 200 : OOB 0.3250 : L 88 : T 3.4 sec
+ - d_sub 200 : OOB 0.3236 : L 89 : T 3.4 sec
+ - d_sub 200 : OOB 0.3249 : L 90 : T 3.5 sec
+ - d_sub 200 : OOB 0.3243 : L 91 : T 3.5 sec
+ - d_sub 200 : OOB 0.3239 : L 92 : T 3.6 sec
+ - d_sub 200 : OOB 0.3242 : L 93 : T 3.6 sec
+ - d_sub 200 : OOB 0.3235 : L 94 : T 3.6 sec
+ - d_sub 200 : OOB 0.3231 : L 95 : T 3.7 sec
+
+ - d_sub 400 : OOB 0.4403 : L 1 : T 0.1 sec
+ - d_sub 400 : OOB 0.3995 : L 2 : T 0.2 sec
+ - d_sub 400 : OOB 0.3800 : L 3 : T 0.2 sec
+ - d_sub 400 : OOB 0.3630 : L 4 : T 0.3 sec
+ - d_sub 400 : OOB 0.3483 : L 5 : T 0.4 sec
+ - d_sub 400 : OOB 0.3456 : L 6 : T 0.5 sec
+ - d_sub 400 : OOB 0.3381 : L 7 : T 0.6 sec
+ - d_sub 400 : OOB 0.3336 : L 8 : T 0.6 sec
+ - d_sub 400 : OOB 0.3278 : L 9 : T 0.7 sec
+ - d_sub 400 : OOB 0.3231 : L 10 : T 0.8 sec
+ - d_sub 400 : OOB 0.3172 : L 11 : T 0.9 sec
+ - d_sub 400 : OOB 0.3139 : L 12 : T 1.0 sec
+ - d_sub 400 : OOB 0.3171 : L 13 : T 1.0 sec
+ - d_sub 400 : OOB 0.3170 : L 14 : T 1.1 sec
+ - d_sub 400 : OOB 0.3138 : L 15 : T 1.2 sec
+ - d_sub 400 : OOB 0.3143 : L 16 : T 1.3 sec
+ - d_sub 400 : OOB 0.3141 : L 17 : T 1.4 sec
+ - d_sub 400 : OOB 0.3113 : L 18 : T 1.4 sec
+ - d_sub 400 : OOB 0.3116 : L 19 : T 1.5 sec
+ - d_sub 400 : OOB 0.3087 : L 20 : T 1.6 sec
+ - d_sub 400 : OOB 0.3081 : L 21 : T 1.7 sec
+ - d_sub 400 : OOB 0.3054 : L 22 : T 1.8 sec
+ - d_sub 400 : OOB 0.3044 : L 23 : T 1.9 sec
+ - d_sub 400 : OOB 0.3067 : L 24 : T 2.0 sec
+ - d_sub 400 : OOB 0.3048 : L 25 : T 2.1 sec
+ - d_sub 400 : OOB 0.3064 : L 26 : T 2.1 sec
+ - d_sub 400 : OOB 0.3065 : L 27 : T 2.2 sec
+ - d_sub 400 : OOB 0.3062 : L 28 : T 2.3 sec
+ - d_sub 400 : OOB 0.3055 : L 29 : T 2.4 sec
+ - d_sub 400 : OOB 0.3070 : L 30 : T 2.5 sec
+ - d_sub 400 : OOB 0.3022 : L 31 : T 2.6 sec
+ - d_sub 400 : OOB 0.3013 : L 32 : T 2.7 sec
+ - d_sub 400 : OOB 0.3017 : L 33 : T 2.7 sec
+ - d_sub 400 : OOB 0.3021 : L 34 : T 2.8 sec
+ - d_sub 400 : OOB 0.3024 : L 35 : T 2.9 sec
+ - d_sub 400 : OOB 0.3032 : L 36 : T 3.0 sec
+ - d_sub 400 : OOB 0.3012 : L 37 : T 3.1 sec
+ - d_sub 400 : OOB 0.3009 : L 38 : T 3.2 sec
+ - d_sub 400 : OOB 0.3021 : L 39 : T 3.3 sec
+ - d_sub 400 : OOB 0.3001 : L 40 : T 3.3 sec
+ - d_sub 400 : OOB 0.3008 : L 41 : T 3.4 sec
+ - d_sub 400 : OOB 0.2991 : L 42 : T 3.5 sec
+ - d_sub 400 : OOB 0.2981 : L 43 : T 3.6 sec
+ - d_sub 400 : OOB 0.2988 : L 44 : T 3.6 sec
+ - d_sub 400 : OOB 0.2968 : L 45 : T 3.7 sec
+ - d_sub 400 : OOB 0.2990 : L 46 : T 3.8 sec
+ - d_sub 400 : OOB 0.2992 : L 47 : T 3.9 sec
+ - d_sub 400 : OOB 0.2999 : L 48 : T 3.9 sec
+ - d_sub 400 : OOB 0.2989 : L 49 : T 4.0 sec
+ - d_sub 400 : OOB 0.3006 : L 50 : T 4.1 sec
+ - d_sub 400 : OOB 0.2998 : L 51 : T 4.2 sec
+ - d_sub 400 : OOB 0.2978 : L 52 : T 4.3 sec
+ - d_sub 400 : OOB 0.2996 : L 53 : T 4.3 sec
+ - d_sub 400 : OOB 0.3002 : L 54 : T 4.4 sec
+ - d_sub 400 : OOB 0.2982 : L 55 : T 4.5 sec
+ - d_sub 400 : OOB 0.2981 : L 56 : T 4.6 sec
+ - d_sub 400 : OOB 0.2988 : L 57 : T 4.7 sec
+ - d_sub 400 : OOB 0.2988 : L 58 : T 4.7 sec
+ - d_sub 400 : OOB 0.2989 : L 59 : T 4.8 sec
+ - d_sub 400 : OOB 0.2982 : L 60 : T 4.9 sec
+ - d_sub 400 : OOB 0.2982 : L 61 : T 5.0 sec
+ - d_sub 400 : OOB 0.2990 : L 62 : T 5.1 sec
+ - d_sub 400 : OOB 0.2978 : L 63 : T 5.1 sec
+ - d_sub 400 : OOB 0.2980 : L 64 : T 5.2 sec
+ - d_sub 400 : OOB 0.2974 : L 65 : T 5.3 sec
+ - d_sub 400 : OOB 0.2972 : L 66 : T 5.4 sec
+ - d_sub 400 : OOB 0.2964 : L 67 : T 5.4 sec
+ - d_sub 400 : OOB 0.2983 : L 68 : T 5.5 sec
+ - d_sub 400 : OOB 0.2970 : L 69 : T 5.6 sec
+ - d_sub 400 : OOB 0.2967 : L 70 : T 5.7 sec
+ - d_sub 400 : OOB 0.2981 : L 71 : T 5.8 sec
+ - d_sub 400 : OOB 0.2961 : L 72 : T 5.8 sec
+ - d_sub 400 : OOB 0.2969 : L 73 : T 5.9 sec
+ - d_sub 400 : OOB 0.2989 : L 74 : T 6.0 sec
+ - d_sub 400 : OOB 0.2963 : L 75 : T 6.1 sec
+ - d_sub 400 : OOB 0.2976 : L 76 : T 6.2 sec
+ - d_sub 400 : OOB 0.2976 : L 77 : T 6.2 sec
+ - d_sub 400 : OOB 0.2981 : L 78 : T 6.3 sec
+ - d_sub 400 : OOB 0.2972 : L 79 : T 6.4 sec
+ - d_sub 400 : OOB 0.2976 : L 80 : T 6.5 sec
+ - d_sub 400 : OOB 0.2982 : L 81 : T 6.5 sec
+ - d_sub 400 : OOB 0.2984 : L 82 : T 6.6 sec
+ - d_sub 400 : OOB 0.2981 : L 83 : T 6.7 sec
+ - d_sub 400 : OOB 0.2970 : L 84 : T 6.8 sec
+ - d_sub 400 : OOB 0.2975 : L 85 : T 6.9 sec
+
+ - d_sub 600 : OOB 0.4302 : L 1 : T 0.1 sec
+ - d_sub 600 : OOB 0.3873 : L 2 : T 0.2 sec
+ - d_sub 600 : OOB 0.3653 : L 3 : T 0.3 sec
+ - d_sub 600 : OOB 0.3469 : L 4 : T 0.4 sec
+ - d_sub 600 : OOB 0.3321 : L 5 : T 0.6 sec
+ - d_sub 600 : OOB 0.3314 : L 6 : T 0.7 sec
+ - d_sub 600 : OOB 0.3173 : L 7 : T 0.8 sec
+ - d_sub 600 : OOB 0.3198 : L 8 : T 0.9 sec
+ - d_sub 600 : OOB 0.3115 : L 9 : T 1.0 sec
+ - d_sub 600 : OOB 0.3103 : L 10 : T 1.1 sec
+ - d_sub 600 : OOB 0.3055 : L 11 : T 1.2 sec
+ - d_sub 600 : OOB 0.3007 : L 12 : T 1.3 sec
+ - d_sub 600 : OOB 0.3033 : L 13 : T 1.4 sec
+ - d_sub 600 : OOB 0.3032 : L 14 : T 1.5 sec
+ - d_sub 600 : OOB 0.2997 : L 15 : T 1.6 sec
+ - d_sub 600 : OOB 0.2998 : L 16 : T 1.7 sec
+ - d_sub 600 : OOB 0.3006 : L 17 : T 1.8 sec
+ - d_sub 600 : OOB 0.2968 : L 18 : T 1.9 sec
+ - d_sub 600 : OOB 0.2966 : L 19 : T 2.0 sec
+ - d_sub 600 : OOB 0.2964 : L 20 : T 2.1 sec
+ - d_sub 600 : OOB 0.2940 : L 21 : T 2.2 sec
+ - d_sub 600 : OOB 0.2919 : L 22 : T 2.3 sec
+ - d_sub 600 : OOB 0.2909 : L 23 : T 2.4 sec
+ - d_sub 600 : OOB 0.2927 : L 24 : T 2.5 sec
+ - d_sub 600 : OOB 0.2925 : L 25 : T 2.6 sec
+ - d_sub 600 : OOB 0.2901 : L 26 : T 2.7 sec
+ - d_sub 600 : OOB 0.2886 : L 27 : T 2.9 sec
+ - d_sub 600 : OOB 0.2906 : L 28 : T 3.0 sec
+ - d_sub 600 : OOB 0.2896 : L 29 : T 3.1 sec
+ - d_sub 600 : OOB 0.2898 : L 30 : T 3.2 sec
+ - d_sub 600 : OOB 0.2884 : L 31 : T 3.3 sec
+ - d_sub 600 : OOB 0.2883 : L 32 : T 3.4 sec
+ - d_sub 600 : OOB 0.2879 : L 33 : T 3.5 sec
+ - d_sub 600 : OOB 0.2854 : L 34 : T 3.5 sec
+ - d_sub 600 : OOB 0.2852 : L 35 : T 3.6 sec
+ - d_sub 600 : OOB 0.2868 : L 36 : T 3.8 sec
+ - d_sub 600 : OOB 0.2853 : L 37 : T 3.9 sec
+ - d_sub 600 : OOB 0.2875 : L 38 : T 4.0 sec
+ - d_sub 600 : OOB 0.2850 : L 39 : T 4.1 sec
+ - d_sub 600 : OOB 0.2834 : L 40 : T 4.2 sec
+ - d_sub 600 : OOB 0.2845 : L 41 : T 4.3 sec
+ - d_sub 600 : OOB 0.2853 : L 42 : T 4.4 sec
+ - d_sub 600 : OOB 0.2845 : L 43 : T 4.5 sec
+ - d_sub 600 : OOB 0.2854 : L 44 : T 4.6 sec
+ - d_sub 600 : OOB 0.2827 : L 45 : T 4.7 sec
+ - d_sub 600 : OOB 0.2835 : L 46 : T 4.8 sec
+ - d_sub 600 : OOB 0.2851 : L 47 : T 4.9 sec
+ - d_sub 600 : OOB 0.2850 : L 48 : T 5.0 sec
+ - d_sub 600 : OOB 0.2841 : L 49 : T 5.1 sec
+ - d_sub 600 : OOB 0.2846 : L 50 : T 5.2 sec
+ - d_sub 600 : OOB 0.2866 : L 51 : T 5.3 sec
+ - d_sub 600 : OOB 0.2848 : L 52 : T 5.4 sec
+ - d_sub 600 : OOB 0.2849 : L 53 : T 5.5 sec
+ - d_sub 600 : OOB 0.2842 : L 54 : T 5.6 sec
+ - d_sub 600 : OOB 0.2834 : L 55 : T 5.7 sec
+ - d_sub 600 : OOB 0.2834 : L 56 : T 5.8 sec
+ - d_sub 600 : OOB 0.2827 : L 57 : T 5.9 sec
+ - d_sub 600 : OOB 0.2852 : L 58 : T 6.0 sec
+ - d_sub 600 : OOB 0.2850 : L 59 : T 6.1 sec
+ - d_sub 600 : OOB 0.2848 : L 60 : T 6.2 sec
+ - d_sub 600 : OOB 0.2834 : L 61 : T 6.3 sec
+ - d_sub 600 : OOB 0.2839 : L 62 : T 6.4 sec
+ - d_sub 600 : OOB 0.2841 : L 63 : T 6.5 sec
+ - d_sub 600 : OOB 0.2843 : L 64 : T 6.6 sec
+ - d_sub 600 : OOB 0.2827 : L 65 : T 6.7 sec
+ - d_sub 600 : OOB 0.2842 : L 66 : T 6.8 sec
+ - d_sub 600 : OOB 0.2849 : L 67 : T 6.9 sec
+ - d_sub 600 : OOB 0.2824 : L 68 : T 7.5 sec
+ - d_sub 600 : OOB 0.2822 : L 69 : T 7.6 sec
+ - d_sub 600 : OOB 0.2836 : L 70 : T 7.7 sec
+ - d_sub 600 : OOB 0.2815 : L 71 : T 7.8 sec
+ - d_sub 600 : OOB 0.2819 : L 72 : T 8.0 sec
+ - d_sub 600 : OOB 0.2813 : L 73 : T 8.1 sec
+ - d_sub 600 : OOB 0.2820 : L 74 : T 8.3 sec
+ - d_sub 600 : OOB 0.2839 : L 75 : T 8.4 sec
+ - d_sub 600 : OOB 0.2828 : L 76 : T 8.5 sec
+ - d_sub 600 : OOB 0.2854 : L 77 : T 8.6 sec
+ - d_sub 600 : OOB 0.2837 : L 78 : T 8.7 sec
+ - d_sub 600 : OOB 0.2839 : L 79 : T 8.8 sec
+ - d_sub 600 : OOB 0.2831 : L 80 : T 8.9 sec
+
+ - d_sub 800 : OOB 0.4349 : L 1 : T 0.2 sec
+ - d_sub 800 : OOB 0.3912 : L 2 : T 0.3 sec
+ - d_sub 800 : OOB 0.3715 : L 3 : T 0.4 sec
+ - d_sub 800 : OOB 0.3553 : L 4 : T 0.6 sec
+ - d_sub 800 : OOB 0.3417 : L 5 : T 0.8 sec
+ - d_sub 800 : OOB 0.3319 : L 6 : T 0.9 sec
+ - d_sub 800 : OOB 0.3215 : L 7 : T 1.1 sec
+ - d_sub 800 : OOB 0.3136 : L 8 : T 1.3 sec
+ - d_sub 800 : OOB 0.3089 : L 9 : T 1.4 sec
+ - d_sub 800 : OOB 0.3034 : L 10 : T 1.6 sec
+ - d_sub 800 : OOB 0.3006 : L 11 : T 1.8 sec
+ - d_sub 800 : OOB 0.2967 : L 12 : T 1.9 sec
+ - d_sub 800 : OOB 0.2974 : L 13 : T 2.1 sec
+ - d_sub 800 : OOB 0.2969 : L 14 : T 2.3 sec
+ - d_sub 800 : OOB 0.2901 : L 15 : T 2.4 sec
+ - d_sub 800 : OOB 0.2926 : L 16 : T 2.6 sec
+ - d_sub 800 : OOB 0.2887 : L 17 : T 2.7 sec
+ - d_sub 800 : OOB 0.2888 : L 18 : T 2.9 sec
+ - d_sub 800 : OOB 0.2873 : L 19 : T 3.0 sec
+ - d_sub 800 : OOB 0.2871 : L 20 : T 3.2 sec
+ - d_sub 800 : OOB 0.2840 : L 21 : T 3.3 sec
+ - d_sub 800 : OOB 0.2838 : L 22 : T 3.5 sec
+ - d_sub 800 : OOB 0.2824 : L 23 : T 3.7 sec
+ - d_sub 800 : OOB 0.2801 : L 24 : T 3.8 sec
+ - d_sub 800 : OOB 0.2796 : L 25 : T 4.0 sec
+ - d_sub 800 : OOB 0.2804 : L 26 : T 4.2 sec
+ - d_sub 800 : OOB 0.2790 : L 27 : T 4.3 sec
+ - d_sub 800 : OOB 0.2791 : L 28 : T 4.5 sec
+ - d_sub 800 : OOB 0.2784 : L 29 : T 4.6 sec
+ - d_sub 800 : OOB 0.2791 : L 30 : T 4.7 sec
+ - d_sub 800 : OOB 0.2776 : L 31 : T 4.9 sec
+ - d_sub 800 : OOB 0.2784 : L 32 : T 5.1 sec
+ - d_sub 800 : OOB 0.2793 : L 33 : T 5.2 sec
+ - d_sub 800 : OOB 0.2796 : L 34 : T 5.4 sec
+ - d_sub 800 : OOB 0.2791 : L 35 : T 5.6 sec
+ - d_sub 800 : OOB 0.2789 : L 36 : T 5.7 sec
+ - d_sub 800 : OOB 0.2785 : L 37 : T 5.9 sec
+ - d_sub 800 : OOB 0.2784 : L 38 : T 6.0 sec
+ - d_sub 800 : OOB 0.2774 : L 39 : T 6.2 sec
+ - d_sub 800 : OOB 0.2755 : L 40 : T 6.4 sec
+ - d_sub 800 : OOB 0.2779 : L 41 : T 6.5 sec
+ - d_sub 800 : OOB 0.2754 : L 42 : T 6.7 sec
+ - d_sub 800 : OOB 0.2773 : L 43 : T 6.8 sec
+ - d_sub 800 : OOB 0.2748 : L 44 : T 7.0 sec
+ - d_sub 800 : OOB 0.2751 : L 45 : T 7.2 sec
+ - d_sub 800 : OOB 0.2737 : L 46 : T 7.3 sec
+ - d_sub 800 : OOB 0.2732 : L 47 : T 7.5 sec
+ - d_sub 800 : OOB 0.2722 : L 48 : T 7.6 sec
+ - d_sub 800 : OOB 0.2715 : L 49 : T 7.8 sec
+ - d_sub 800 : OOB 0.2729 : L 50 : T 7.9 sec
+ - d_sub 800 : OOB 0.2724 : L 51 : T 8.1 sec
+ - d_sub 800 : OOB 0.2736 : L 52 : T 8.2 sec
+ - d_sub 800 : OOB 0.2730 : L 53 : T 8.4 sec
+ - d_sub 800 : OOB 0.2731 : L 54 : T 8.5 sec
+ - d_sub 800 : OOB 0.2725 : L 55 : T 8.7 sec
+ - d_sub 800 : OOB 0.2733 : L 56 : T 8.8 sec
+ - d_sub 800 : OOB 0.2734 : L 57 : T 9.0 sec
+ - d_sub 800 : OOB 0.2733 : L 58 : T 9.1 sec
+ - d_sub 800 : OOB 0.2735 : L 59 : T 9.3 sec
+ - d_sub 800 : OOB 0.2712 : L 60 : T 9.4 sec
+ - d_sub 800 : OOB 0.2722 : L 61 : T 9.5 sec
+ - d_sub 800 : OOB 0.2735 : L 62 : T 9.7 sec
+ - d_sub 800 : OOB 0.2728 : L 63 : T 9.9 sec
+ - d_sub 800 : OOB 0.2726 : L 64 : T 10.0 sec
+ - d_sub 800 : OOB 0.2730 : L 65 : T 10.2 sec
+ - d_sub 800 : OOB 0.2716 : L 66 : T 10.3 sec
+ - d_sub 800 : OOB 0.2714 : L 67 : T 10.5 sec
+ - d_sub 800 : OOB 0.2727 : L 68 : T 10.7 sec
+ - d_sub 800 : OOB 0.2697 : L 69 : T 10.8 sec
+ - d_sub 800 : OOB 0.2720 : L 70 : T 10.9 sec
+ - d_sub 800 : OOB 0.2706 : L 71 : T 11.1 sec
+ - d_sub 800 : OOB 0.2706 : L 72 : T 11.2 sec
+ - d_sub 800 : OOB 0.2723 : L 73 : T 11.4 sec
+ - d_sub 800 : OOB 0.2707 : L 74 : T 11.5 sec
+ - d_sub 800 : OOB 0.2716 : L 75 : T 11.7 sec
+ - d_sub 800 : OOB 0.2697 : L 76 : T 11.8 sec
+ - d_sub 800 : OOB 0.2707 : L 77 : T 12.0 sec
+ - d_sub 800 : OOB 0.2709 : L 78 : T 12.1 sec
+ - d_sub 800 : OOB 0.2702 : L 79 : T 12.2 sec
+ - d_sub 800 : OOB 0.2705 : L 80 : T 12.4 sec
+ - d_sub 800 : OOB 0.2690 : L 81 : T 12.5 sec
+ - d_sub 800 : OOB 0.2684 : L 82 : T 12.7 sec
+ - d_sub 800 : OOB 0.2672 : L 83 : T 12.9 sec
+ - d_sub 800 : OOB 0.2692 : L 84 : T 13.0 sec
+ - d_sub 800 : OOB 0.2689 : L 85 : T 13.2 sec
+ - d_sub 800 : OOB 0.2706 : L 86 : T 13.4 sec
+ - d_sub 800 : OOB 0.2697 : L 87 : T 13.5 sec
+ - d_sub 800 : OOB 0.2695 : L 88 : T 13.7 sec
+ - d_sub 800 : OOB 0.2698 : L 89 : T 13.9 sec
+ - d_sub 800 : OOB 0.2703 : L 90 : T 14.0 sec
+ - d_sub 800 : OOB 0.2710 : L 91 : T 14.2 sec
+ - d_sub 800 : OOB 0.2704 : L 92 : T 14.3 sec
+ - d_sub 800 : OOB 0.2703 : L 93 : T 14.5 sec
+ - d_sub 800 : OOB 0.2693 : L 94 : T 14.7 sec
+
+ - d_sub 1000 : OOB 0.4271 : L 1 : T 0.2 sec
+ - d_sub 1000 : OOB 0.3831 : L 2 : T 0.4 sec
+ - d_sub 1000 : OOB 0.3615 : L 3 : T 0.7 sec
+ - d_sub 1000 : OOB 0.3467 : L 4 : T 1.0 sec
+ - d_sub 1000 : OOB 0.3266 : L 5 : T 1.2 sec
+ - d_sub 1000 : OOB 0.3238 : L 6 : T 1.5 sec
+ - d_sub 1000 : OOB 0.3127 : L 7 : T 1.7 sec
+ - d_sub 1000 : OOB 0.3079 : L 8 : T 2.0 sec
+ - d_sub 1000 : OOB 0.3028 : L 9 : T 2.3 sec
+ - d_sub 1000 : OOB 0.2976 : L 10 : T 2.5 sec
+ - d_sub 1000 : OOB 0.2921 : L 11 : T 2.7 sec
+ - d_sub 1000 : OOB 0.2881 : L 12 : T 3.0 sec
+ - d_sub 1000 : OOB 0.2890 : L 13 : T 3.2 sec
+ - d_sub 1000 : OOB 0.2884 : L 14 : T 3.5 sec
+ - d_sub 1000 : OOB 0.2850 : L 15 : T 3.7 sec
+ - d_sub 1000 : OOB 0.2845 : L 16 : T 3.9 sec
+ - d_sub 1000 : OOB 0.2855 : L 17 : T 4.1 sec
+ - d_sub 1000 : OOB 0.2832 : L 18 : T 4.4 sec
+ - d_sub 1000 : OOB 0.2802 : L 19 : T 4.6 sec
+ - d_sub 1000 : OOB 0.2808 : L 20 : T 4.9 sec
+ - d_sub 1000 : OOB 0.2790 : L 21 : T 5.1 sec
+ - d_sub 1000 : OOB 0.2768 : L 22 : T 5.3 sec
+ - d_sub 1000 : OOB 0.2761 : L 23 : T 5.6 sec
+ - d_sub 1000 : OOB 0.2773 : L 24 : T 5.9 sec
+ - d_sub 1000 : OOB 0.2738 : L 25 : T 6.1 sec
+ - d_sub 1000 : OOB 0.2750 : L 26 : T 6.4 sec
+ - d_sub 1000 : OOB 0.2722 : L 27 : T 6.6 sec
+ - d_sub 1000 : OOB 0.2718 : L 28 : T 6.8 sec
+ - d_sub 1000 : OOB 0.2703 : L 29 : T 7.0 sec
+ - d_sub 1000 : OOB 0.2716 : L 30 : T 7.2 sec
+ - d_sub 1000 : OOB 0.2695 : L 31 : T 7.4 sec
+ - d_sub 1000 : OOB 0.2702 : L 32 : T 7.7 sec
+ - d_sub 1000 : OOB 0.2696 : L 33 : T 8.0 sec
+ - d_sub 1000 : OOB 0.2696 : L 34 : T 8.2 sec
+ - d_sub 1000 : OOB 0.2713 : L 35 : T 8.6 sec
+ - d_sub 1000 : OOB 0.2678 : L 36 : T 8.8 sec
+ - d_sub 1000 : OOB 0.2687 : L 37 : T 9.0 sec
+ - d_sub 1000 : OOB 0.2701 : L 38 : T 9.4 sec
+ - d_sub 1000 : OOB 0.2692 : L 39 : T 9.6 sec
+ - d_sub 1000 : OOB 0.2702 : L 40 : T 9.8 sec
+ - d_sub 1000 : OOB 0.2673 : L 41 : T 10.0 sec
+ - d_sub 1000 : OOB 0.2668 : L 42 : T 10.3 sec
+ - d_sub 1000 : OOB 0.2637 : L 43 : T 10.5 sec
+ - d_sub 1000 : OOB 0.2666 : L 44 : T 10.7 sec
+ - d_sub 1000 : OOB 0.2675 : L 45 : T 11.1 sec
+ - d_sub 1000 : OOB 0.2669 : L 46 : T 11.4 sec
+ - d_sub 1000 : OOB 0.2676 : L 47 : T 11.8 sec
+ - d_sub 1000 : OOB 0.2680 : L 48 : T 12.1 sec
+ - d_sub 1000 : OOB 0.2672 : L 49 : T 12.3 sec
+ - d_sub 1000 : OOB 0.2685 : L 50 : T 12.6 sec
+ - d_sub 1000 : OOB 0.2661 : L 51 : T 12.8 sec
+ - d_sub 1000 : OOB 0.2667 : L 52 : T 13.0 sec
+ - d_sub 1000 : OOB 0.2665 : L 53 : T 13.2 sec
+ - d_sub 1000 : OOB 0.2656 : L 54 : T 13.5 sec
+ - d_sub 1000 : OOB 0.2661 : L 55 : T 13.7 sec
+ - d_sub 1000 : OOB 0.2648 : L 56 : T 14.0 sec
+ - d_sub 1000 : OOB 0.2641 : L 57 : T 14.2 sec
+ - d_sub 1000 : OOB 0.2650 : L 58 : T 14.4 sec
+ - d_sub 1000 : OOB 0.2654 : L 59 : T 14.7 sec
+ - d_sub 1000 : OOB 0.2666 : L 60 : T 14.9 sec
+ - d_sub 1000 : OOB 0.2644 : L 61 : T 15.1 sec
+ - d_sub 1000 : OOB 0.2655 : L 62 : T 15.3 sec
+ - d_sub 1000 : OOB 0.2675 : L 63 : T 15.6 sec
+ - d_sub 1000 : OOB 0.2667 : L 64 : T 15.8 sec
+ - d_sub 1000 : OOB 0.2654 : L 65 : T 16.0 sec
+ - d_sub 1000 : OOB 0.2628 : L 66 : T 16.3 sec
+ - d_sub 1000 : OOB 0.2641 : L 67 : T 16.5 sec
+ - d_sub 1000 : OOB 0.2631 : L 68 : T 16.8 sec
+ - d_sub 1000 : OOB 0.2637 : L 69 : T 17.0 sec
+ - d_sub 1000 : OOB 0.2654 : L 70 : T 17.2 sec
+ - d_sub 1000 : OOB 0.2633 : L 71 : T 17.5 sec
+ - d_sub 1000 : OOB 0.2635 : L 72 : T 17.7 sec
+ - d_sub 1000 : OOB 0.2637 : L 73 : T 17.9 sec
+ - d_sub 1000 : OOB 0.2638 : L 74 : T 18.2 sec
+ - d_sub 1000 : OOB 0.2640 : L 75 : T 18.4 sec
+ - d_sub 1000 : OOB 0.2641 : L 76 : T 18.7 sec
+ - d_sub 1000 : OOB 0.2633 : L 77 : T 18.9 sec
+ - d_sub 1000 : OOB 0.2642 : L 78 : T 19.1 sec
+ - d_sub 1000 : OOB 0.2626 : L 79 : T 19.4 sec
+ - d_sub 1000 : OOB 0.2624 : L 80 : T 19.6 sec
+ - d_sub 1000 : OOB 0.2631 : L 81 : T 20.0 sec
+ - d_sub 1000 : OOB 0.2635 : L 82 : T 20.3 sec
+ - d_sub 1000 : OOB 0.2629 : L 83 : T 20.7 sec
+ - d_sub 1000 : OOB 0.2599 : L 84 : T 20.9 sec
+ - d_sub 1000 : OOB 0.2618 : L 85 : T 21.1 sec
+ - d_sub 1000 : OOB 0.2597 : L 86 : T 21.4 sec
+ - d_sub 1000 : OOB 0.2613 : L 87 : T 21.7 sec
+ - d_sub 1000 : OOB 0.2605 : L 88 : T 21.9 sec
+ - d_sub 1000 : OOB 0.2593 : L 89 : T 22.1 sec
+ - d_sub 1000 : OOB 0.2611 : L 90 : T 22.3 sec
+ - d_sub 1000 : OOB 0.2607 : L 91 : T 22.5 sec
+ - d_sub 1000 : OOB 0.2608 : L 92 : T 22.8 sec
+ - d_sub 1000 : OOB 0.2592 : L 93 : T 23.0 sec
+ - d_sub 1000 : OOB 0.2589 : L 94 : T 23.2 sec
+ - d_sub 1000 : OOB 0.2599 : L 95 : T 23.4 sec
+ - d_sub 1000 : OOB 0.2603 : L 96 : T 23.7 sec
+ - d_sub 1000 : OOB 0.2611 : L 97 : T 24.0 sec
+ - d_sub 1000 : OOB 0.2610 : L 98 : T 24.2 sec
+ - d_sub 1000 : OOB 0.2626 : L 99 : T 24.4 sec
+ - d_sub 1000 : OOB 0.2608 : L 100 : T 24.7 sec
+ - d_sub 1000 : OOB 0.2602 : L 101 : T 25.0 sec
+ - d_sub 1000 : OOB 0.2617 : L 102 : T 25.5 sec
+ - d_sub 1000 : OOB 0.2598 : L 103 : T 25.8 sec
+ - d_sub 1000 : OOB 0.2613 : L 104 : T 26.1 sec
+ - d_sub 1000 : OOB 0.2602 : L 105 : T 26.3 sec
+ - d_sub 1000 : OOB 0.2624 : L 106 : T 26.6 sec
+ - d_sub 1000 : OOB 0.2612 : L 107 : T 26.9 sec
+ - d_sub 1000 : OOB 0.2620 : L 108 : T 27.1 sec
+ - d_sub 1000 : OOB 0.2630 : L 109 : T 27.4 sec
+ - d_sub 1000 : OOB 0.2619 : L 110 : T 27.6 sec
+ - d_sub 1000 : OOB 0.2602 : L 111 : T 27.8 sec
+ - d_sub 1000 : OOB 0.2616 : L 112 : T 28.1 sec
+ - d_sub 1000 : OOB 0.2613 : L 113 : T 28.3 sec
+
+ - d_sub 1200 : OOB 0.4342 : L 1 : T 1.6 sec
+ - d_sub 1200 : OOB 0.3851 : L 2 : T 1.9 sec
+ - d_sub 1200 : OOB 0.3585 : L 3 : T 2.2 sec
+ - d_sub 1200 : OOB 0.3416 : L 4 : T 2.5 sec
+ - d_sub 1200 : OOB 0.3254 : L 5 : T 2.8 sec
+ - d_sub 1200 : OOB 0.3179 : L 6 : T 3.1 sec
+ - d_sub 1200 : OOB 0.3062 : L 7 : T 3.5 sec
+ - d_sub 1200 : OOB 0.2999 : L 8 : T 3.8 sec
+ - d_sub 1200 : OOB 0.2935 : L 9 : T 4.0 sec
+ - d_sub 1200 : OOB 0.2917 : L 10 : T 4.4 sec
+ - d_sub 1200 : OOB 0.2899 : L 11 : T 4.7 sec
+ - d_sub 1200 : OOB 0.2860 : L 12 : T 5.0 sec
+ - d_sub 1200 : OOB 0.2838 : L 13 : T 5.3 sec
+ - d_sub 1200 : OOB 0.2813 : L 14 : T 5.6 sec
+ - d_sub 1200 : OOB 0.2810 : L 15 : T 5.9 sec
+ - d_sub 1200 : OOB 0.2800 : L 16 : T 6.2 sec
+ - d_sub 1200 : OOB 0.2752 : L 17 : T 6.5 sec
+ - d_sub 1200 : OOB 0.2742 : L 18 : T 6.9 sec
+ - d_sub 1200 : OOB 0.2741 : L 19 : T 7.2 sec
+ - d_sub 1200 : OOB 0.2734 : L 20 : T 7.4 sec
+ - d_sub 1200 : OOB 0.2719 : L 21 : T 7.7 sec
+ - d_sub 1200 : OOB 0.2726 : L 22 : T 8.0 sec
+ - d_sub 1200 : OOB 0.2700 : L 23 : T 8.3 sec
+ - d_sub 1200 : OOB 0.2685 : L 24 : T 8.6 sec
+ - d_sub 1200 : OOB 0.2688 : L 25 : T 8.9 sec
+ - d_sub 1200 : OOB 0.2695 : L 26 : T 9.2 sec
+ - d_sub 1200 : OOB 0.2669 : L 27 : T 9.5 sec
+ - d_sub 1200 : OOB 0.2681 : L 28 : T 9.8 sec
+ - d_sub 1200 : OOB 0.2663 : L 29 : T 10.1 sec
+ - d_sub 1200 : OOB 0.2662 : L 30 : T 10.5 sec
+ - d_sub 1200 : OOB 0.2654 : L 31 : T 10.8 sec
+ - d_sub 1200 : OOB 0.2647 : L 32 : T 11.0 sec
+ - d_sub 1200 : OOB 0.2676 : L 33 : T 11.3 sec
+ - d_sub 1200 : OOB 0.2635 : L 34 : T 11.6 sec
+ - d_sub 1200 : OOB 0.2643 : L 35 : T 11.8 sec
+ - d_sub 1200 : OOB 0.2645 : L 36 : T 12.2 sec
+ - d_sub 1200 : OOB 0.2632 : L 37 : T 12.5 sec
+ - d_sub 1200 : OOB 0.2646 : L 38 : T 12.8 sec
+ - d_sub 1200 : OOB 0.2640 : L 39 : T 13.1 sec
+ - d_sub 1200 : OOB 0.2669 : L 40 : T 13.4 sec
+ - d_sub 1200 : OOB 0.2653 : L 41 : T 13.7 sec
+ - d_sub 1200 : OOB 0.2642 : L 42 : T 14.0 sec
+ - d_sub 1200 : OOB 0.2661 : L 43 : T 14.3 sec
+ - d_sub 1200 : OOB 0.2652 : L 44 : T 14.6 sec
+ - d_sub 1200 : OOB 0.2643 : L 45 : T 14.9 sec
+ - d_sub 1200 : OOB 0.2623 : L 46 : T 15.2 sec
+ - d_sub 1200 : OOB 0.2635 : L 47 : T 15.5 sec
+ - d_sub 1200 : OOB 0.2611 : L 48 : T 15.8 sec
+ - d_sub 1200 : OOB 0.2624 : L 49 : T 16.2 sec
+ - d_sub 1200 : OOB 0.2627 : L 50 : T 16.5 sec
+ - d_sub 1200 : OOB 0.2614 : L 51 : T 16.8 sec
+ - d_sub 1200 : OOB 0.2617 : L 52 : T 17.1 sec
+ - d_sub 1200 : OOB 0.2617 : L 53 : T 17.4 sec
+ - d_sub 1200 : OOB 0.2609 : L 54 : T 17.7 sec
+ - d_sub 1200 : OOB 0.2623 : L 55 : T 18.0 sec
+ - d_sub 1200 : OOB 0.2607 : L 56 : T 18.3 sec
+ - d_sub 1200 : OOB 0.2609 : L 57 : T 18.6 sec
+ - d_sub 1200 : OOB 0.2609 : L 58 : T 18.9 sec
+ - d_sub 1200 : OOB 0.2628 : L 59 : T 19.2 sec
+ - d_sub 1200 : OOB 0.2604 : L 60 : T 19.5 sec
+ - d_sub 1200 : OOB 0.2599 : L 61 : T 19.8 sec
+ - d_sub 1200 : OOB 0.2614 : L 62 : T 20.0 sec
+ - d_sub 1200 : OOB 0.2596 : L 63 : T 20.3 sec
+ - d_sub 1200 : OOB 0.2602 : L 64 : T 20.6 sec
+ - d_sub 1200 : OOB 0.2599 : L 65 : T 20.9 sec
+ - d_sub 1200 : OOB 0.2588 : L 66 : T 21.1 sec
+ - d_sub 1200 : OOB 0.2582 : L 67 : T 21.4 sec
+ - d_sub 1200 : OOB 0.2613 : L 68 : T 21.7 sec
+ - d_sub 1200 : OOB 0.2589 : L 69 : T 22.0 sec
+ - d_sub 1200 : OOB 0.2593 : L 70 : T 22.3 sec
+ - d_sub 1200 : OOB 0.2591 : L 71 : T 22.5 sec
+ - d_sub 1200 : OOB 0.2594 : L 72 : T 22.8 sec
+ - d_sub 1200 : OOB 0.2585 : L 73 : T 23.1 sec
+ - d_sub 1200 : OOB 0.2588 : L 74 : T 23.3 sec
+ - d_sub 1200 : OOB 0.2585 : L 75 : T 23.6 sec
+ - d_sub 1200 : OOB 0.2592 : L 76 : T 23.9 sec
+ - d_sub 1200 : OOB 0.2572 : L 77 : T 24.2 sec
+ - d_sub 1200 : OOB 0.2584 : L 78 : T 24.5 sec
+ - d_sub 1200 : OOB 0.2574 : L 79 : T 24.7 sec
+ - d_sub 1200 : OOB 0.2587 : L 80 : T 25.0 sec
+ - d_sub 1200 : OOB 0.2583 : L 81 : T 25.6 sec
+ - d_sub 1200 : OOB 0.2570 : L 82 : T 25.9 sec
+ - d_sub 1200 : OOB 0.2578 : L 83 : T 26.2 sec
+ - d_sub 1200 : OOB 0.2598 : L 84 : T 26.4 sec
+ - d_sub 1200 : OOB 0.2587 : L 85 : T 26.7 sec
+ - d_sub 1200 : OOB 0.2593 : L 86 : T 27.0 sec
+ - d_sub 1200 : OOB 0.2586 : L 87 : T 27.4 sec
+ - d_sub 1200 : OOB 0.2598 : L 88 : T 27.6 sec
+ - d_sub 1200 : OOB 0.2584 : L 89 : T 27.9 sec
+ - d_sub 1200 : OOB 0.2584 : L 90 : T 28.3 sec
+ - d_sub 1200 : OOB 0.2584 : L 91 : T 28.6 sec
+ - d_sub 1200 : OOB 0.2598 : L 92 : T 28.9 sec
+ - d_sub 1200 : OOB 0.2579 : L 93 : T 29.2 sec
+ - d_sub 1200 : OOB 0.2573 : L 94 : T 29.5 sec
+
+ - d_sub 1400 : OOB 0.4302 : L 1 : T 0.9 sec
+ - d_sub 1400 : OOB 0.3852 : L 2 : T 1.3 sec
+ - d_sub 1400 : OOB 0.3623 : L 3 : T 1.7 sec
+ - d_sub 1400 : OOB 0.3443 : L 4 : T 2.1 sec
+ - d_sub 1400 : OOB 0.3279 : L 5 : T 2.6 sec
+ - d_sub 1400 : OOB 0.3213 : L 6 : T 3.0 sec
+ - d_sub 1400 : OOB 0.3233 : L 7 : T 3.4 sec
+ - d_sub 1400 : OOB 0.3123 : L 8 : T 3.9 sec
+ - d_sub 1400 : OOB 0.3069 : L 9 : T 4.4 sec
+ - d_sub 1400 : OOB 0.3020 : L 10 : T 4.8 sec
+ - d_sub 1400 : OOB 0.2908 : L 11 : T 5.1 sec
+ - d_sub 1400 : OOB 0.2902 : L 12 : T 5.5 sec
+ - d_sub 1400 : OOB 0.2907 : L 13 : T 5.9 sec
+ - d_sub 1400 : OOB 0.2834 : L 14 : T 6.2 sec
+ - d_sub 1400 : OOB 0.2858 : L 15 : T 6.6 sec
+ - d_sub 1400 : OOB 0.2840 : L 16 : T 7.0 sec
+ - d_sub 1400 : OOB 0.2811 : L 17 : T 7.3 sec
+ - d_sub 1400 : OOB 0.2789 : L 18 : T 7.7 sec
+ - d_sub 1400 : OOB 0.2808 : L 19 : T 8.1 sec
+ - d_sub 1400 : OOB 0.2791 : L 20 : T 8.4 sec
+ - d_sub 1400 : OOB 0.2788 : L 21 : T 8.8 sec
+ - d_sub 1400 : OOB 0.2765 : L 22 : T 9.2 sec
+ - d_sub 1400 : OOB 0.2725 : L 23 : T 9.6 sec
+ - d_sub 1400 : OOB 0.2728 : L 24 : T 10.1 sec
+ - d_sub 1400 : OOB 0.2741 : L 25 : T 10.5 sec
+ - d_sub 1400 : OOB 0.2737 : L 26 : T 10.9 sec
+ - d_sub 1400 : OOB 0.2718 : L 27 : T 11.3 sec
+ - d_sub 1400 : OOB 0.2717 : L 28 : T 11.7 sec
+ - d_sub 1400 : OOB 0.2702 : L 29 : T 12.1 sec
+ - d_sub 1400 : OOB 0.2699 : L 30 : T 12.5 sec
+ - d_sub 1400 : OOB 0.2689 : L 31 : T 12.9 sec
+ - d_sub 1400 : OOB 0.2664 : L 32 : T 13.2 sec
+ - d_sub 1400 : OOB 0.2694 : L 33 : T 13.6 sec
+ - d_sub 1400 : OOB 0.2677 : L 34 : T 14.0 sec
+ - d_sub 1400 : OOB 0.2679 : L 35 : T 14.4 sec
+ - d_sub 1400 : OOB 0.2686 : L 36 : T 14.8 sec
+ - d_sub 1400 : OOB 0.2672 : L 37 : T 15.2 sec
+ - d_sub 1400 : OOB 0.2677 : L 38 : T 15.6 sec
+ - d_sub 1400 : OOB 0.2632 : L 39 : T 16.0 sec
+ - d_sub 1400 : OOB 0.2643 : L 40 : T 16.4 sec
+ - d_sub 1400 : OOB 0.2661 : L 41 : T 16.8 sec
+ - d_sub 1400 : OOB 0.2664 : L 42 : T 17.2 sec
+ - d_sub 1400 : OOB 0.2662 : L 43 : T 17.5 sec
+ - d_sub 1400 : OOB 0.2656 : L 44 : T 17.9 sec
+ - d_sub 1400 : OOB 0.2651 : L 45 : T 18.3 sec
+ - d_sub 1400 : OOB 0.2637 : L 46 : T 18.6 sec
+ - d_sub 1400 : OOB 0.2622 : L 47 : T 19.0 sec
+ - d_sub 1400 : OOB 0.2617 : L 48 : T 19.3 sec
+ - d_sub 1400 : OOB 0.2617 : L 49 : T 19.7 sec
+ - d_sub 1400 : OOB 0.2634 : L 50 : T 20.1 sec
+ - d_sub 1400 : OOB 0.2615 : L 51 : T 20.4 sec
+ - d_sub 1400 : OOB 0.2610 : L 52 : T 20.8 sec
+ - d_sub 1400 : OOB 0.2609 : L 53 : T 21.2 sec
+ - d_sub 1400 : OOB 0.2597 : L 54 : T 21.5 sec
+ - d_sub 1400 : OOB 0.2596 : L 55 : T 21.9 sec
+ - d_sub 1400 : OOB 0.2614 : L 56 : T 22.9 sec
+ - d_sub 1400 : OOB 0.2588 : L 57 : T 23.3 sec
+ - d_sub 1400 : OOB 0.2625 : L 58 : T 23.7 sec
+ - d_sub 1400 : OOB 0.2613 : L 59 : T 24.1 sec
+ - d_sub 1400 : OOB 0.2578 : L 60 : T 24.5 sec
+ - d_sub 1400 : OOB 0.2578 : L 61 : T 24.9 sec
+ - d_sub 1400 : OOB 0.2580 : L 62 : T 25.3 sec
+ - d_sub 1400 : OOB 0.2596 : L 63 : T 25.7 sec
+ - d_sub 1400 : OOB 0.2578 : L 64 : T 26.1 sec
+ - d_sub 1400 : OOB 0.2565 : L 65 : T 26.5 sec
+ - d_sub 1400 : OOB 0.2576 : L 66 : T 26.9 sec
+ - d_sub 1400 : OOB 0.2579 : L 67 : T 27.3 sec
+ - d_sub 1400 : OOB 0.2577 : L 68 : T 27.7 sec
+ - d_sub 1400 : OOB 0.2570 : L 69 : T 28.1 sec
+ - d_sub 1400 : OOB 0.2611 : L 70 : T 28.5 sec
+ - d_sub 1400 : OOB 0.2587 : L 71 : T 28.9 sec
+ - d_sub 1400 : OOB 0.2589 : L 72 : T 29.3 sec
+ - d_sub 1400 : OOB 0.2586 : L 73 : T 29.8 sec
+ - d_sub 1400 : OOB 0.2588 : L 74 : T 30.2 sec
+ - d_sub 1400 : OOB 0.2598 : L 75 : T 30.6 sec
+ - d_sub 1400 : OOB 0.2603 : L 76 : T 31.0 sec
+ - d_sub 1400 : OOB 0.2604 : L 77 : T 31.3 sec
+ - d_sub 1400 : OOB 0.2579 : L 78 : T 31.7 sec
+ - d_sub 1400 : OOB 0.2592 : L 79 : T 32.1 sec
+ - d_sub 1400 : OOB 0.2592 : L 80 : T 32.4 sec
+ - d_sub 1400 : OOB 0.2596 : L 81 : T 32.8 sec
+ - d_sub 1400 : OOB 0.2590 : L 82 : T 33.1 sec
+ - d_sub 1400 : OOB 0.2592 : L 83 : T 33.5 sec
+ - d_sub 1400 : OOB 0.2568 : L 84 : T 33.9 sec
+ - d_sub 1400 : OOB 0.2584 : L 85 : T 34.2 sec
+ - d_sub 1400 : OOB 0.2583 : L 86 : T 34.5 sec
+ - d_sub 1400 : OOB 0.2584 : L 87 : T 34.9 sec
+ - d_sub 1400 : OOB 0.2576 : L 88 : T 35.2 sec
+ - d_sub 1400 : OOB 0.2595 : L 89 : T 35.6 sec
+ - d_sub 1400 : OOB 0.2603 : L 90 : T 36.0 sec
+ - d_sub 1400 : OOB 0.2594 : L 91 : T 36.4 sec
+ - d_sub 1400 : OOB 0.2587 : L 92 : T 36.9 sec
+ - d_sub 1400 : OOB 0.2583 : L 93 : T 37.3 sec
+ - d_sub 1400 : OOB 0.2583 : L 94 : T 37.7 sec
+ - d_sub 1400 : OOB 0.2584 : L 95 : T 38.2 sec
+ - d_sub 1400 : OOB 0.2592 : L 96 : T 38.5 sec
+
+ - d_sub 1600 : OOB 0.4330 : L 1 : T 0.5 sec
+ - d_sub 1600 : OOB 0.4004 : L 2 : T 1.0 sec
+ - d_sub 1600 : OOB 0.3730 : L 3 : T 1.5 sec
+ - d_sub 1600 : OOB 0.3528 : L 4 : T 2.0 sec
+ - d_sub 1600 : OOB 0.3319 : L 5 : T 2.5 sec
+ - d_sub 1600 : OOB 0.3249 : L 6 : T 3.0 sec
+ - d_sub 1600 : OOB 0.3131 : L 7 : T 3.5 sec
+ - d_sub 1600 : OOB 0.3052 : L 8 : T 4.0 sec
+ - d_sub 1600 : OOB 0.3034 : L 9 : T 4.4 sec
+ - d_sub 1600 : OOB 0.2999 : L 10 : T 4.9 sec
+ - d_sub 1600 : OOB 0.2952 : L 11 : T 5.3 sec
+ - d_sub 1600 : OOB 0.2915 : L 12 : T 5.8 sec
+ - d_sub 1600 : OOB 0.2869 : L 13 : T 6.2 sec
+ - d_sub 1600 : OOB 0.2879 : L 14 : T 6.7 sec
+ - d_sub 1600 : OOB 0.2832 : L 15 : T 7.1 sec
+ - d_sub 1600 : OOB 0.2826 : L 16 : T 7.6 sec
+ - d_sub 1600 : OOB 0.2835 : L 17 : T 8.0 sec
+ - d_sub 1600 : OOB 0.2829 : L 18 : T 8.4 sec
+ - d_sub 1600 : OOB 0.2803 : L 19 : T 8.8 sec
+ - d_sub 1600 : OOB 0.2819 : L 20 : T 9.3 sec
+ - d_sub 1600 : OOB 0.2767 : L 21 : T 9.7 sec
+ - d_sub 1600 : OOB 0.2758 : L 22 : T 10.1 sec
+ - d_sub 1600 : OOB 0.2769 : L 23 : T 10.5 sec
+ - d_sub 1600 : OOB 0.2760 : L 24 : T 11.0 sec
+ - d_sub 1600 : OOB 0.2743 : L 25 : T 11.4 sec
+ - d_sub 1600 : OOB 0.2730 : L 26 : T 11.9 sec
+ - d_sub 1600 : OOB 0.2712 : L 27 : T 12.4 sec
+ - d_sub 1600 : OOB 0.2711 : L 28 : T 12.8 sec
+ - d_sub 1600 : OOB 0.2713 : L 29 : T 13.3 sec
+ - d_sub 1600 : OOB 0.2731 : L 30 : T 13.7 sec
+ - d_sub 1600 : OOB 0.2704 : L 31 : T 14.2 sec
+ - d_sub 1600 : OOB 0.2687 : L 32 : T 14.7 sec
+ - d_sub 1600 : OOB 0.2703 : L 33 : T 15.2 sec
+ - d_sub 1600 : OOB 0.2695 : L 34 : T 15.6 sec
+ - d_sub 1600 : OOB 0.2707 : L 35 : T 16.1 sec
+ - d_sub 1600 : OOB 0.2696 : L 36 : T 16.6 sec
+ - d_sub 1600 : OOB 0.2684 : L 37 : T 17.0 sec
+ - d_sub 1600 : OOB 0.2681 : L 38 : T 17.5 sec
+ - d_sub 1600 : OOB 0.2672 : L 39 : T 17.9 sec
+ - d_sub 1600 : OOB 0.2672 : L 40 : T 18.4 sec
+ - d_sub 1600 : OOB 0.2696 : L 41 : T 18.9 sec
+ - d_sub 1600 : OOB 0.2671 : L 42 : T 19.3 sec
+ - d_sub 1600 : OOB 0.2658 : L 43 : T 19.8 sec
+ - d_sub 1600 : OOB 0.2661 : L 44 : T 20.4 sec
+ - d_sub 1600 : OOB 0.2673 : L 45 : T 21.0 sec
+ - d_sub 1600 : OOB 0.2669 : L 46 : T 21.5 sec
+ - d_sub 1600 : OOB 0.2649 : L 47 : T 22.1 sec
+ - d_sub 1600 : OOB 0.2653 : L 48 : T 22.6 sec
+ - d_sub 1600 : OOB 0.2638 : L 49 : T 23.1 sec
+ - d_sub 1600 : OOB 0.2648 : L 50 : T 23.7 sec
+ - d_sub 1600 : OOB 0.2624 : L 51 : T 24.2 sec
+ - d_sub 1600 : OOB 0.2646 : L 52 : T 24.8 sec
+ - d_sub 1600 : OOB 0.2653 : L 53 : T 25.4 sec
+ - d_sub 1600 : OOB 0.2663 : L 54 : T 26.1 sec
+ - d_sub 1600 : OOB 0.2635 : L 55 : T 26.7 sec
+ - d_sub 1600 : OOB 0.2636 : L 56 : T 27.2 sec
+ - d_sub 1600 : OOB 0.2628 : L 57 : T 27.7 sec
+ - d_sub 1600 : OOB 0.2655 : L 58 : T 28.2 sec
+ - d_sub 1600 : OOB 0.2629 : L 59 : T 28.7 sec
+ - d_sub 1600 : OOB 0.2619 : L 60 : T 29.2 sec
+ - d_sub 1600 : OOB 0.2621 : L 61 : T 29.7 sec
+ - d_sub 1600 : OOB 0.2613 : L 62 : T 30.1 sec
+ - d_sub 1600 : OOB 0.2625 : L 63 : T 30.6 sec
+ - d_sub 1600 : OOB 0.2612 : L 64 : T 31.1 sec
+ - d_sub 1600 : OOB 0.2620 : L 65 : T 31.5 sec
+ - d_sub 1600 : OOB 0.2622 : L 66 : T 32.0 sec
+ - d_sub 1600 : OOB 0.2609 : L 67 : T 32.5 sec
+ - d_sub 1600 : OOB 0.2612 : L 68 : T 32.9 sec
+ - d_sub 1600 : OOB 0.2611 : L 69 : T 33.4 sec
+ - d_sub 1600 : OOB 0.2624 : L 70 : T 33.9 sec
+ - d_sub 1600 : OOB 0.2629 : L 71 : T 34.3 sec
+ - d_sub 1600 : OOB 0.2608 : L 72 : T 34.7 sec
+ - d_sub 1600 : OOB 0.2601 : L 73 : T 35.2 sec
+ - d_sub 1600 : OOB 0.2626 : L 74 : T 35.6 sec
+ - d_sub 1600 : OOB 0.2628 : L 75 : T 36.1 sec
+ - d_sub 1600 : OOB 0.2612 : L 76 : T 36.6 sec
+ - d_sub 1600 : OOB 0.2603 : L 77 : T 37.0 sec
+ - d_sub 1600 : OOB 0.2617 : L 78 : T 37.6 sec
+ - d_sub 1600 : OOB 0.2619 : L 79 : T 38.1 sec
+ - d_sub 1600 : OOB 0.2614 : L 80 : T 38.6 sec
+ - d_sub 1600 : OOB 0.2589 : L 81 : T 39.1 sec
+ - d_sub 1600 : OOB 0.2595 : L 82 : T 39.7 sec
+ - d_sub 1600 : OOB 0.2602 : L 83 : T 40.2 sec
+ - d_sub 1600 : OOB 0.2594 : L 84 : T 40.7 sec
+ - d_sub 1600 : OOB 0.2590 : L 85 : T 41.2 sec
+ - d_sub 1600 : OOB 0.2586 : L 86 : T 41.6 sec
+ - d_sub 1600 : OOB 0.2587 : L 87 : T 42.1 sec
+ - d_sub 1600 : OOB 0.2579 : L 88 : T 42.6 sec
+ - d_sub 1600 : OOB 0.2568 : L 89 : T 43.1 sec
+ - d_sub 1600 : OOB 0.2585 : L 90 : T 43.6 sec
+ - d_sub 1600 : OOB 0.2581 : L 91 : T 44.0 sec
+ - d_sub 1600 : OOB 0.2585 : L 92 : T 44.6 sec
+ - d_sub 1600 : OOB 0.2572 : L 93 : T 45.0 sec
+ - d_sub 1600 : OOB 0.2573 : L 94 : T 45.5 sec
+ - d_sub 1600 : OOB 0.2556 : L 95 : T 46.0 sec
+ - d_sub 1600 : OOB 0.2543 : L 96 : T 46.5 sec
+ - d_sub 1600 : OOB 0.2558 : L 97 : T 47.0 sec
+ - d_sub 1600 : OOB 0.2560 : L 98 : T 47.5 sec
+ - d_sub 1600 : OOB 0.2553 : L 99 : T 47.9 sec
+ - d_sub 1600 : OOB 0.2556 : L 100 : T 48.3 sec
+ - d_sub 1600 : OOB 0.2564 : L 101 : T 48.8 sec
+ - d_sub 1600 : OOB 0.2545 : L 102 : T 49.2 sec
+ - d_sub 1600 : OOB 0.2553 : L 103 : T 49.8 sec
+ - d_sub 1600 : OOB 0.2557 : L 104 : T 50.2 sec
+ - d_sub 1600 : OOB 0.2548 : L 105 : T 50.7 sec
+ - d_sub 1600 : OOB 0.2565 : L 106 : T 51.1 sec
+ - d_sub 1600 : OOB 0.2558 : L 107 : T 51.5 sec
+ - d_sub 1600 : OOB 0.2559 : L 108 : T 52.0 sec
+ - d_sub 1600 : OOB 0.2566 : L 109 : T 52.4 sec
+ - d_sub 1600 : OOB 0.2564 : L 110 : T 53.6 sec
+ - d_sub 1600 : OOB 0.2550 : L 111 : T 54.0 sec
+ - d_sub 1600 : OOB 0.2553 : L 112 : T 54.5 sec
+ - d_sub 1600 : OOB 0.2562 : L 113 : T 55.0 sec
+ - d_sub 1600 : OOB 0.2571 : L 114 : T 55.6 sec
+ - d_sub 1600 : OOB 0.2567 : L 115 : T 56.1 sec
+ - d_sub 1600 : OOB 0.2573 : L 116 : T 56.7 sec
+ - d_sub 1600 : OOB 0.2577 : L 117 : T 57.2 sec
+ - d_sub 1600 : OOB 0.2567 : L 118 : T 57.8 sec
+ - d_sub 1600 : OOB 0.2562 : L 119 : T 58.5 sec
+ - d_sub 1600 : OOB 0.2562 : L 120 : T 59.0 sec
+ - d_sub 1600 : OOB 0.2567 : L 121 : T 59.6 sec
+ - d_sub 1600 : OOB 0.2555 : L 122 : T 60.2 sec
+ - d_sub 1600 : OOB 0.2568 : L 123 : T 60.7 sec
+ - d_sub 1600 : OOB 0.2547 : L 124 : T 61.3 sec
+ - d_sub 1600 : OOB 0.2554 : L 125 : T 61.8 sec
+ - d_sub 1600 : OOB 0.2566 : L 126 : T 62.3 sec
+ - d_sub 1600 : OOB 0.2558 : L 127 : T 62.8 sec
+ - d_sub 1600 : OOB 0.2570 : L 128 : T 63.3 sec
+ - d_sub 1600 : OOB 0.2565 : L 129 : T 63.8 sec
+
+ - d_sub 1800 : OOB 0.4316 : L 1 : T 0.6 sec
+ - d_sub 1800 : OOB 0.3928 : L 2 : T 1.2 sec
+ - d_sub 1800 : OOB 0.3672 : L 3 : T 1.7 sec
+ - d_sub 1800 : OOB 0.3532 : L 4 : T 2.3 sec
+ - d_sub 1800 : OOB 0.3336 : L 5 : T 2.9 sec
+ - d_sub 1800 : OOB 0.3275 : L 6 : T 3.5 sec
+ - d_sub 1800 : OOB 0.3137 : L 7 : T 4.1 sec
+ - d_sub 1800 : OOB 0.3043 : L 8 : T 4.7 sec
+ - d_sub 1800 : OOB 0.3029 : L 9 : T 5.2 sec
+ - d_sub 1800 : OOB 0.2990 : L 10 : T 5.8 sec
+ - d_sub 1800 : OOB 0.2910 : L 11 : T 6.4 sec
+ - d_sub 1800 : OOB 0.2898 : L 12 : T 7.0 sec
+ - d_sub 1800 : OOB 0.2890 : L 13 : T 7.6 sec
+ - d_sub 1800 : OOB 0.2836 : L 14 : T 8.2 sec
+ - d_sub 1800 : OOB 0.2871 : L 15 : T 8.7 sec
+ - d_sub 1800 : OOB 0.2801 : L 16 : T 9.3 sec
+ - d_sub 1800 : OOB 0.2791 : L 17 : T 9.9 sec
+ - d_sub 1800 : OOB 0.2762 : L 18 : T 10.6 sec
+ - d_sub 1800 : OOB 0.2740 : L 19 : T 11.2 sec
+ - d_sub 1800 : OOB 0.2754 : L 20 : T 11.7 sec
+ - d_sub 1800 : OOB 0.2725 : L 21 : T 12.2 sec
+ - d_sub 1800 : OOB 0.2726 : L 22 : T 12.7 sec
+ - d_sub 1800 : OOB 0.2714 : L 23 : T 13.2 sec
+ - d_sub 1800 : OOB 0.2662 : L 24 : T 13.7 sec
+ - d_sub 1800 : OOB 0.2670 : L 25 : T 14.2 sec
+ - d_sub 1800 : OOB 0.2676 : L 26 : T 14.7 sec
+ - d_sub 1800 : OOB 0.2675 : L 27 : T 15.2 sec
+ - d_sub 1800 : OOB 0.2678 : L 28 : T 15.7 sec
+ - d_sub 1800 : OOB 0.2701 : L 29 : T 16.2 sec
+ - d_sub 1800 : OOB 0.2671 : L 30 : T 16.8 sec
+ - d_sub 1800 : OOB 0.2658 : L 31 : T 17.3 sec
+ - d_sub 1800 : OOB 0.2674 : L 32 : T 17.8 sec
+ - d_sub 1800 : OOB 0.2669 : L 33 : T 18.4 sec
+ - d_sub 1800 : OOB 0.2645 : L 34 : T 19.0 sec
+ - d_sub 1800 : OOB 0.2637 : L 35 : T 19.6 sec
+ - d_sub 1800 : OOB 0.2652 : L 36 : T 20.3 sec
+ - d_sub 1800 : OOB 0.2640 : L 37 : T 20.9 sec
+ - d_sub 1800 : OOB 0.2626 : L 38 : T 21.4 sec
+ - d_sub 1800 : OOB 0.2612 : L 39 : T 22.0 sec
+ - d_sub 1800 : OOB 0.2615 : L 40 : T 22.7 sec
+ - d_sub 1800 : OOB 0.2630 : L 41 : T 23.2 sec
+ - d_sub 1800 : OOB 0.2604 : L 42 : T 23.8 sec
+ - d_sub 1800 : OOB 0.2619 : L 43 : T 24.4 sec
+ - d_sub 1800 : OOB 0.2594 : L 44 : T 25.0 sec
+ - d_sub 1800 : OOB 0.2596 : L 45 : T 25.5 sec
+ - d_sub 1800 : OOB 0.2588 : L 46 : T 26.1 sec
+ - d_sub 1800 : OOB 0.2609 : L 47 : T 26.6 sec
+ - d_sub 1800 : OOB 0.2596 : L 48 : T 27.1 sec
+ - d_sub 1800 : OOB 0.2611 : L 49 : T 27.6 sec
+ - d_sub 1800 : OOB 0.2597 : L 50 : T 28.2 sec
+ - d_sub 1800 : OOB 0.2607 : L 51 : T 28.8 sec
+ - d_sub 1800 : OOB 0.2584 : L 52 : T 29.4 sec
+ - d_sub 1800 : OOB 0.2593 : L 53 : T 30.0 sec
+ - d_sub 1800 : OOB 0.2599 : L 54 : T 30.5 sec
+ - d_sub 1800 : OOB 0.2598 : L 55 : T 31.1 sec
+ - d_sub 1800 : OOB 0.2592 : L 56 : T 31.6 sec
+ - d_sub 1800 : OOB 0.2566 : L 57 : T 32.2 sec
+ - d_sub 1800 : OOB 0.2568 : L 58 : T 32.9 sec
+ - d_sub 1800 : OOB 0.2576 : L 59 : T 33.7 sec
+ - d_sub 1800 : OOB 0.2570 : L 60 : T 34.4 sec
+ - d_sub 1800 : OOB 0.2564 : L 61 : T 35.1 sec
+ - d_sub 1800 : OOB 0.2557 : L 62 : T 35.9 sec
+ - d_sub 1800 : OOB 0.2571 : L 63 : T 36.5 sec
+ - d_sub 1800 : OOB 0.2559 : L 64 : T 37.1 sec
+ - d_sub 1800 : OOB 0.2567 : L 65 : T 37.7 sec
+ - d_sub 1800 : OOB 0.2567 : L 66 : T 38.3 sec
+ - d_sub 1800 : OOB 0.2562 : L 67 : T 38.9 sec
+ - d_sub 1800 : OOB 0.2559 : L 68 : T 39.4 sec
+ - d_sub 1800 : OOB 0.2549 : L 69 : T 40.0 sec
+ - d_sub 1800 : OOB 0.2540 : L 70 : T 40.5 sec
+ - d_sub 1800 : OOB 0.2539 : L 71 : T 41.1 sec
+ - d_sub 1800 : OOB 0.2540 : L 72 : T 41.6 sec
+ - d_sub 1800 : OOB 0.2538 : L 73 : T 42.1 sec
+ - d_sub 1800 : OOB 0.2542 : L 74 : T 42.6 sec
+ - d_sub 1800 : OOB 0.2557 : L 75 : T 43.1 sec
+ - d_sub 1800 : OOB 0.2539 : L 76 : T 43.6 sec
+ - d_sub 1800 : OOB 0.2545 : L 77 : T 44.1 sec
+ - d_sub 1800 : OOB 0.2547 : L 78 : T 44.6 sec
+ - d_sub 1800 : OOB 0.2547 : L 79 : T 45.1 sec
+ - d_sub 1800 : OOB 0.2544 : L 80 : T 45.6 sec
+ - d_sub 1800 : OOB 0.2554 : L 81 : T 46.1 sec
+ - d_sub 1800 : OOB 0.2563 : L 82 : T 46.8 sec
+ - d_sub 1800 : OOB 0.2559 : L 83 : T 47.3 sec
+ - d_sub 1800 : OOB 0.2547 : L 84 : T 47.9 sec
+ - d_sub 1800 : OOB 0.2553 : L 85 : T 48.5 sec
+ - d_sub 1800 : OOB 0.2555 : L 86 : T 49.1 sec
+ - d_sub 1800 : OOB 0.2558 : L 87 : T 49.7 sec
+ - d_sub 1800 : OOB 0.2558 : L 88 : T 50.3 sec
+ - d_sub 1800 : OOB 0.2557 : L 89 : T 50.9 sec
+ - d_sub 1800 : OOB 0.2565 : L 90 : T 51.5 sec
+ - d_sub 1800 : OOB 0.2564 : L 91 : T 52.1 sec
+ - d_sub 1800 : OOB 0.2553 : L 92 : T 52.7 sec
+ - d_sub 1800 : OOB 0.2555 : L 93 : T 53.3 sec
+ - d_sub 1800 : OOB 0.2540 : L 94 : T 53.9 sec
+ - d_sub 1800 : OOB 0.2564 : L 95 : T 54.4 sec
+ - d_sub 1800 : OOB 0.2560 : L 96 : T 54.9 sec
+ - d_sub 1800 : OOB 0.2560 : L 97 : T 55.4 sec
+ - d_sub 1800 : OOB 0.2559 : L 98 : T 55.9 sec
+ - d_sub 1800 : OOB 0.2563 : L 99 : T 56.4 sec
+ - d_sub 1800 : OOB 0.2553 : L 100 : T 56.9 sec
+ - d_sub 1800 : OOB 0.2555 : L 101 : T 57.5 sec
+ - d_sub 1800 : OOB 0.2558 : L 102 : T 58.0 sec
+
+ - d_sub 2000 : OOB 0.4281 : L 1 : T 0.6 sec
+ - d_sub 2000 : OOB 0.3931 : L 2 : T 1.2 sec
+ - d_sub 2000 : OOB 0.3688 : L 3 : T 1.9 sec
+ - d_sub 2000 : OOB 0.3511 : L 4 : T 2.6 sec
+ - d_sub 2000 : OOB 0.3342 : L 5 : T 3.3 sec
+ - d_sub 2000 : OOB 0.3249 : L 6 : T 3.9 sec
+ - d_sub 2000 : OOB 0.3153 : L 7 : T 4.6 sec
+ - d_sub 2000 : OOB 0.3037 : L 8 : T 5.3 sec
+ - d_sub 2000 : OOB 0.3014 : L 9 : T 6.0 sec
+ - d_sub 2000 : OOB 0.2970 : L 10 : T 6.7 sec
+ - d_sub 2000 : OOB 0.2932 : L 11 : T 7.5 sec
+ - d_sub 2000 : OOB 0.2912 : L 12 : T 8.2 sec
+ - d_sub 2000 : OOB 0.2874 : L 13 : T 8.9 sec
+ - d_sub 2000 : OOB 0.2882 : L 14 : T 9.5 sec
+ - d_sub 2000 : OOB 0.2862 : L 15 : T 10.1 sec
+ - d_sub 2000 : OOB 0.2927 : L 16 : T 10.7 sec
+ - d_sub 2000 : OOB 0.2881 : L 17 : T 11.3 sec
+ - d_sub 2000 : OOB 0.2829 : L 18 : T 11.9 sec
+ - d_sub 2000 : OOB 0.2827 : L 19 : T 12.5 sec
+ - d_sub 2000 : OOB 0.2828 : L 20 : T 13.1 sec
+ - d_sub 2000 : OOB 0.2812 : L 21 : T 13.7 sec
+ - d_sub 2000 : OOB 0.2798 : L 22 : T 14.3 sec
+ - d_sub 2000 : OOB 0.2768 : L 23 : T 14.9 sec
+ - d_sub 2000 : OOB 0.2763 : L 24 : T 15.7 sec
+ - d_sub 2000 : OOB 0.2756 : L 25 : T 16.4 sec
+ - d_sub 2000 : OOB 0.2762 : L 26 : T 17.0 sec
+ - d_sub 2000 : OOB 0.2766 : L 27 : T 17.7 sec
+ - d_sub 2000 : OOB 0.2769 : L 28 : T 18.4 sec
+ - d_sub 2000 : OOB 0.2725 : L 29 : T 19.1 sec
+ - d_sub 2000 : OOB 0.2694 : L 30 : T 19.8 sec
+ - d_sub 2000 : OOB 0.2687 : L 31 : T 20.5 sec
+ - d_sub 2000 : OOB 0.2700 : L 32 : T 21.2 sec
+ - d_sub 2000 : OOB 0.2712 : L 33 : T 22.0 sec
+ - d_sub 2000 : OOB 0.2696 : L 34 : T 22.6 sec
+ - d_sub 2000 : OOB 0.2707 : L 35 : T 23.2 sec
+ - d_sub 2000 : OOB 0.2716 : L 36 : T 23.8 sec
+ - d_sub 2000 : OOB 0.2694 : L 37 : T 24.4 sec
+ - d_sub 2000 : OOB 0.2669 : L 38 : T 25.0 sec
+ - d_sub 2000 : OOB 0.2678 : L 39 : T 25.6 sec
+ - d_sub 2000 : OOB 0.2666 : L 40 : T 26.2 sec
+ - d_sub 2000 : OOB 0.2671 : L 41 : T 26.8 sec
+ - d_sub 2000 : OOB 0.2636 : L 42 : T 27.4 sec
+ - d_sub 2000 : OOB 0.2654 : L 43 : T 28.0 sec
+ - d_sub 2000 : OOB 0.2675 : L 44 : T 28.7 sec
+ - d_sub 2000 : OOB 0.2646 : L 45 : T 29.4 sec
+ - d_sub 2000 : OOB 0.2643 : L 46 : T 30.1 sec
+ - d_sub 2000 : OOB 0.2670 : L 47 : T 30.8 sec
+ - d_sub 2000 : OOB 0.2661 : L 48 : T 31.5 sec
+ - d_sub 2000 : OOB 0.2630 : L 49 : T 32.2 sec
+ - d_sub 2000 : OOB 0.2626 : L 50 : T 32.9 sec
+ - d_sub 2000 : OOB 0.2620 : L 51 : T 33.7 sec
+ - d_sub 2000 : OOB 0.2627 : L 52 : T 34.4 sec
+ - d_sub 2000 : OOB 0.2634 : L 53 : T 35.0 sec
+ - d_sub 2000 : OOB 0.2623 : L 54 : T 35.7 sec
+ - d_sub 2000 : OOB 0.2642 : L 55 : T 36.3 sec
+ - d_sub 2000 : OOB 0.2657 : L 56 : T 37.0 sec
+ - d_sub 2000 : OOB 0.2626 : L 57 : T 37.6 sec
+ - d_sub 2000 : OOB 0.2613 : L 58 : T 38.2 sec
+ - d_sub 2000 : OOB 0.2608 : L 59 : T 38.7 sec
+ - d_sub 2000 : OOB 0.2609 : L 60 : T 39.3 sec
+ - d_sub 2000 : OOB 0.2593 : L 61 : T 39.9 sec
+ - d_sub 2000 : OOB 0.2601 : L 62 : T 40.5 sec
+ - d_sub 2000 : OOB 0.2612 : L 63 : T 41.1 sec
+ - d_sub 2000 : OOB 0.2631 : L 64 : T 41.8 sec
+ - d_sub 2000 : OOB 0.2617 : L 65 : T 42.5 sec
+ - d_sub 2000 : OOB 0.2591 : L 66 : T 43.3 sec
+ - d_sub 2000 : OOB 0.2599 : L 67 : T 44.0 sec
+ - d_sub 2000 : OOB 0.2585 : L 68 : T 44.8 sec
+ - d_sub 2000 : OOB 0.2586 : L 69 : T 45.6 sec
+ - d_sub 2000 : OOB 0.2583 : L 70 : T 46.4 sec
+ - d_sub 2000 : OOB 0.2586 : L 71 : T 47.1 sec
+ - d_sub 2000 : OOB 0.2605 : L 72 : T 47.9 sec
+ - d_sub 2000 : OOB 0.2589 : L 73 : T 48.6 sec
+ - d_sub 2000 : OOB 0.2611 : L 74 : T 49.3 sec
+ - d_sub 2000 : OOB 0.2582 : L 75 : T 50.0 sec
+ - d_sub 2000 : OOB 0.2589 : L 76 : T 50.6 sec
+ - d_sub 2000 : OOB 0.2595 : L 77 : T 51.3 sec
+ - d_sub 2000 : OOB 0.2591 : L 78 : T 52.0 sec
+ - d_sub 2000 : OOB 0.2573 : L 79 : T 52.6 sec
+ - d_sub 2000 : OOB 0.2568 : L 80 : T 53.2 sec
+ - d_sub 2000 : OOB 0.2576 : L 81 : T 53.9 sec
+ - d_sub 2000 : OOB 0.2576 : L 82 : T 54.5 sec
+ - d_sub 2000 : OOB 0.2578 : L 83 : T 55.2 sec
+ - d_sub 2000 : OOB 0.2553 : L 84 : T 55.9 sec
+ - d_sub 2000 : OOB 0.2561 : L 85 : T 56.7 sec
+ - d_sub 2000 : OOB 0.2555 : L 86 : T 57.4 sec
+ - d_sub 2000 : OOB 0.2567 : L 87 : T 58.2 sec
+ - d_sub 2000 : OOB 0.2563 : L 88 : T 58.9 sec
+ - d_sub 2000 : OOB 0.2548 : L 89 : T 59.7 sec
+ - d_sub 2000 : OOB 0.2560 : L 90 : T 60.4 sec
+ - d_sub 2000 : OOB 0.2554 : L 91 : T 61.1 sec
+ - d_sub 2000 : OOB 0.2561 : L 92 : T 61.9 sec
+ - d_sub 2000 : OOB 0.2561 : L 93 : T 62.6 sec
+ - d_sub 2000 : OOB 0.2541 : L 94 : T 63.3 sec
+ - d_sub 2000 : OOB 0.2545 : L 95 : T 64.0 sec
+ - d_sub 2000 : OOB 0.2566 : L 96 : T 64.6 sec
+ - d_sub 2000 : OOB 0.2545 : L 97 : T 65.2 sec
+ - d_sub 2000 : OOB 0.2546 : L 98 : T 65.9 sec
+ - d_sub 2000 : OOB 0.2546 : L 99 : T 66.5 sec
+ - d_sub 2000 : OOB 0.2537 : L 100 : T 67.1 sec
+ - d_sub 2000 : OOB 0.2555 : L 101 : T 67.7 sec
+ - d_sub 2000 : OOB 0.2552 : L 102 : T 68.3 sec
+ - d_sub 2000 : OOB 0.2543 : L 103 : T 69.0 sec
+ - d_sub 2000 : OOB 0.2519 : L 104 : T 69.8 sec
+ - d_sub 2000 : OOB 0.2535 : L 105 : T 70.6 sec
+ - d_sub 2000 : OOB 0.2524 : L 106 : T 71.3 sec
+ - d_sub 2000 : OOB 0.2533 : L 107 : T 72.1 sec
+ - d_sub 2000 : OOB 0.2541 : L 108 : T 72.8 sec
+ - d_sub 2000 : OOB 0.2538 : L 109 : T 73.5 sec
+ - d_sub 2000 : OOB 0.2523 : L 110 : T 74.2 sec
+ - d_sub 2000 : OOB 0.2534 : L 111 : T 74.8 sec
+ - d_sub 2000 : OOB 0.2526 : L 112 : T 75.5 sec
+ - d_sub 2000 : OOB 0.2500 : L 113 : T 76.2 sec
+ - d_sub 2000 : OOB 0.2522 : L 114 : T 76.9 sec
+ - d_sub 2000 : OOB 0.2520 : L 115 : T 77.5 sec
+ - d_sub 2000 : OOB 0.2515 : L 116 : T 78.1 sec
+ - d_sub 2000 : OOB 0.2510 : L 117 : T 78.7 sec
+ - d_sub 2000 : OOB 0.2505 : L 118 : T 79.3 sec
+ - d_sub 2000 : OOB 0.2512 : L 119 : T 79.9 sec
+ - d_sub 2000 : OOB 0.2512 : L 120 : T 80.5 sec
+ - d_sub 2000 : OOB 0.2516 : L 121 : T 81.1 sec
+ - d_sub 2000 : OOB 0.2505 : L 122 : T 81.7 sec
+ - d_sub 2000 : OOB 0.2506 : L 123 : T 82.3 sec
+ - d_sub 2000 : OOB 0.2513 : L 124 : T 82.9 sec
+ - d_sub 2000 : OOB 0.2507 : L 125 : T 83.6 sec
+ - d_sub 2000 : OOB 0.2501 : L 126 : T 84.3 sec
+ - d_sub 2000 : OOB 0.2498 : L 127 : T 84.9 sec
+ - d_sub 2000 : OOB 0.2503 : L 128 : T 85.6 sec
+ - d_sub 2000 : OOB 0.2507 : L 129 : T 86.3 sec
+ - d_sub 2000 : OOB 0.2516 : L 130 : T 87.1 sec
+ - d_sub 2000 : OOB 0.2508 : L 131 : T 87.8 sec
+ - d_sub 2000 : OOB 0.2503 : L 132 : T 88.5 sec
+ - d_sub 2000 : OOB 0.2501 : L 133 : T 89.3 sec
+ - d_sub 2000 : OOB 0.2508 : L 134 : T 90.0 sec
+ - d_sub 2000 : OOB 0.2529 : L 135 : T 90.6 sec
+ - d_sub 2000 : OOB 0.2529 : L 136 : T 91.2 sec
+ - d_sub 2000 : OOB 0.2503 : L 137 : T 91.8 sec
+ - d_sub 2000 : OOB 0.2500 : L 138 : T 92.4 sec
+ - d_sub 2000 : OOB 0.2511 : L 139 : T 93.0 sec
+ - d_sub 2000 : OOB 0.2509 : L 140 : T 93.5 sec
+ - d_sub 2000 : OOB 0.2513 : L 141 : T 94.1 sec
+ - d_sub 2000 : OOB 0.2507 : L 142 : T 94.7 sec
+
+ - d_sub 2200 : OOB 0.4394 : L 1 : T 0.7 sec
+ - d_sub 2200 : OOB 0.3944 : L 2 : T 1.4 sec
+ - d_sub 2200 : OOB 0.3711 : L 3 : T 2.3 sec
+ - d_sub 2200 : OOB 0.3615 : L 4 : T 3.1 sec
+ - d_sub 2200 : OOB 0.3464 : L 5 : T 3.9 sec
+ - d_sub 2200 : OOB 0.3446 : L 6 : T 4.7 sec
+ - d_sub 2200 : OOB 0.3387 : L 7 : T 5.5 sec
+ - d_sub 2200 : OOB 0.3271 : L 8 : T 6.4 sec
+ - d_sub 2200 : OOB 0.3212 : L 9 : T 7.2 sec
+ - d_sub 2200 : OOB 0.3142 : L 10 : T 8.0 sec
+ - d_sub 2200 : OOB 0.3115 : L 11 : T 8.8 sec
+ - d_sub 2200 : OOB 0.2998 : L 12 : T 9.6 sec
+ - d_sub 2200 : OOB 0.3062 : L 13 : T 10.3 sec
+ - d_sub 2200 : OOB 0.3025 : L 14 : T 11.0 sec
+ - d_sub 2200 : OOB 0.2992 : L 15 : T 11.6 sec
+ - d_sub 2200 : OOB 0.2959 : L 16 : T 12.3 sec
+ - d_sub 2200 : OOB 0.2953 : L 17 : T 13.0 sec
+ - d_sub 2200 : OOB 0.2898 : L 18 : T 13.6 sec
+ - d_sub 2200 : OOB 0.2938 : L 19 : T 14.3 sec
+ - d_sub 2200 : OOB 0.2949 : L 20 : T 14.9 sec
+ - d_sub 2200 : OOB 0.2948 : L 21 : T 15.8 sec
+ - d_sub 2200 : OOB 0.2915 : L 22 : T 16.5 sec
+ - d_sub 2200 : OOB 0.2925 : L 23 : T 17.3 sec
+ - d_sub 2200 : OOB 0.2925 : L 24 : T 18.1 sec
+ - d_sub 2200 : OOB 0.2867 : L 25 : T 19.0 sec
+ - d_sub 2200 : OOB 0.2821 : L 26 : T 19.8 sec
+ - d_sub 2200 : OOB 0.2830 : L 27 : T 20.6 sec
+ - d_sub 2200 : OOB 0.2785 : L 28 : T 21.5 sec
+ - d_sub 2200 : OOB 0.2784 : L 29 : T 22.3 sec
+ - d_sub 2200 : OOB 0.2787 : L 30 : T 23.1 sec
+ - d_sub 2200 : OOB 0.2783 : L 31 : T 23.7 sec
+ - d_sub 2200 : OOB 0.2775 : L 32 : T 24.4 sec
+ - d_sub 2200 : OOB 0.2771 : L 33 : T 25.1 sec
+ - d_sub 2200 : OOB 0.2767 : L 34 : T 25.8 sec
+ - d_sub 2200 : OOB 0.2775 : L 35 : T 26.5 sec
+ - d_sub 2200 : OOB 0.2760 : L 36 : T 27.2 sec
+ - d_sub 2200 : OOB 0.2734 : L 37 : T 27.9 sec
+ - d_sub 2200 : OOB 0.2753 : L 38 : T 28.6 sec
+ - d_sub 2200 : OOB 0.2765 : L 39 : T 29.4 sec
+ - d_sub 2200 : OOB 0.2733 : L 40 : T 30.2 sec
+ - d_sub 2200 : OOB 0.2722 : L 41 : T 31.0 sec
+ - d_sub 2200 : OOB 0.2730 : L 42 : T 31.9 sec
+ - d_sub 2200 : OOB 0.2710 : L 43 : T 32.6 sec
+ - d_sub 2200 : OOB 0.2693 : L 44 : T 33.4 sec
+ - d_sub 2200 : OOB 0.2711 : L 45 : T 34.2 sec
+ - d_sub 2200 : OOB 0.2674 : L 46 : T 35.0 sec
+ - d_sub 2200 : OOB 0.2690 : L 47 : T 35.8 sec
+ - d_sub 2200 : OOB 0.2675 : L 48 : T 36.6 sec
+ - d_sub 2200 : OOB 0.2666 : L 49 : T 37.3 sec
+ - d_sub 2200 : OOB 0.2670 : L 50 : T 38.0 sec
+ - d_sub 2200 : OOB 0.2679 : L 51 : T 38.7 sec
+ - d_sub 2200 : OOB 0.2663 : L 52 : T 39.5 sec
+ - d_sub 2200 : OOB 0.2676 : L 53 : T 40.2 sec
+ - d_sub 2200 : OOB 0.2658 : L 54 : T 40.9 sec
+ - d_sub 2200 : OOB 0.2671 : L 55 : T 41.7 sec
+ - d_sub 2200 : OOB 0.2639 : L 56 : T 42.5 sec
+ - d_sub 2200 : OOB 0.2642 : L 57 : T 43.4 sec
+ - d_sub 2200 : OOB 0.2671 : L 58 : T 44.3 sec
+ - d_sub 2200 : OOB 0.2661 : L 59 : T 45.2 sec
+ - d_sub 2200 : OOB 0.2683 : L 60 : T 46.0 sec
+ - d_sub 2200 : OOB 0.2664 : L 61 : T 46.8 sec
+ - d_sub 2200 : OOB 0.2652 : L 62 : T 47.6 sec
+ - d_sub 2200 : OOB 0.2653 : L 63 : T 48.4 sec
+ - d_sub 2200 : OOB 0.2659 : L 64 : T 49.2 sec
+ - d_sub 2200 : OOB 0.2669 : L 65 : T 50.1 sec
+ - d_sub 2200 : OOB 0.2652 : L 66 : T 50.8 sec
+ - d_sub 2200 : OOB 0.2656 : L 67 : T 51.5 sec
+ - d_sub 2200 : OOB 0.2632 : L 68 : T 52.3 sec
+ - d_sub 2200 : OOB 0.2647 : L 69 : T 53.1 sec
+ - d_sub 2200 : OOB 0.2649 : L 70 : T 53.8 sec
+ - d_sub 2200 : OOB 0.2641 : L 71 : T 54.5 sec
+ - d_sub 2200 : OOB 0.2643 : L 72 : T 55.3 sec
+ - d_sub 2200 : OOB 0.2655 : L 73 : T 56.0 sec
+ - d_sub 2200 : OOB 0.2636 : L 74 : T 56.9 sec
+ - d_sub 2200 : OOB 0.2631 : L 75 : T 57.7 sec
+ - d_sub 2200 : OOB 0.2646 : L 76 : T 58.6 sec
+ - d_sub 2200 : OOB 0.2619 : L 77 : T 59.5 sec
+ - d_sub 2200 : OOB 0.2611 : L 78 : T 60.4 sec
+ - d_sub 2200 : OOB 0.2638 : L 79 : T 61.3 sec
+ - d_sub 2200 : OOB 0.2617 : L 80 : T 62.2 sec
+ - d_sub 2200 : OOB 0.2601 : L 81 : T 63.1 sec
+ - d_sub 2200 : OOB 0.2605 : L 82 : T 63.9 sec
+ - d_sub 2200 : OOB 0.2605 : L 83 : T 64.6 sec
+ - d_sub 2200 : OOB 0.2630 : L 84 : T 65.3 sec
+ - d_sub 2200 : OOB 0.2611 : L 85 : T 66.1 sec
+ - d_sub 2200 : OOB 0.2619 : L 86 : T 66.9 sec
+ - d_sub 2200 : OOB 0.2608 : L 87 : T 67.7 sec
+ - d_sub 2200 : OOB 0.2602 : L 88 : T 68.5 sec
+ - d_sub 2200 : OOB 0.2602 : L 89 : T 69.2 sec
+ - d_sub 2200 : OOB 0.2581 : L 90 : T 69.9 sec
+ - d_sub 2200 : OOB 0.2609 : L 91 : T 70.7 sec
+ - d_sub 2200 : OOB 0.2589 : L 92 : T 71.6 sec
+ - d_sub 2200 : OOB 0.2587 : L 93 : T 72.4 sec
+ - d_sub 2200 : OOB 0.2589 : L 94 : T 73.3 sec
+ - d_sub 2200 : OOB 0.2579 : L 95 : T 74.2 sec
+ - d_sub 2200 : OOB 0.2571 : L 96 : T 75.1 sec
+ - d_sub 2200 : OOB 0.2579 : L 97 : T 76.0 sec
+ - d_sub 2200 : OOB 0.2581 : L 98 : T 76.8 sec
+ - d_sub 2200 : OOB 0.2583 : L 99 : T 77.7 sec
+ - d_sub 2200 : OOB 0.2578 : L 100 : T 78.5 sec
+ - d_sub 2200 : OOB 0.2574 : L 101 : T 79.2 sec
+ - d_sub 2200 : OOB 0.2578 : L 102 : T 80.0 sec
+ - d_sub 2200 : OOB 0.2577 : L 103 : T 80.7 sec
+ - d_sub 2200 : OOB 0.2571 : L 104 : T 81.5 sec
+ - d_sub 2200 : OOB 0.2568 : L 105 : T 82.2 sec
+ - d_sub 2200 : OOB 0.2571 : L 106 : T 83.0 sec
+ - d_sub 2200 : OOB 0.2570 : L 107 : T 83.7 sec
+ - d_sub 2200 : OOB 0.2586 : L 108 : T 84.5 sec
+ - d_sub 2200 : OOB 0.2586 : L 109 : T 85.3 sec
+ - d_sub 2200 : OOB 0.2581 : L 110 : T 86.2 sec
+ - d_sub 2200 : OOB 0.2572 : L 111 : T 87.0 sec
+ - d_sub 2200 : OOB 0.2583 : L 112 : T 88.0 sec
+ - d_sub 2200 : OOB 0.2579 : L 113 : T 88.9 sec
+ - d_sub 2200 : OOB 0.2565 : L 114 : T 89.8 sec
+ - d_sub 2200 : OOB 0.2572 : L 115 : T 90.8 sec
+ - d_sub 2200 : OOB 0.2558 : L 116 : T 91.7 sec
+ - d_sub 2200 : OOB 0.2559 : L 117 : T 92.5 sec
+ - d_sub 2200 : OOB 0.2573 : L 118 : T 93.2 sec
+ - d_sub 2200 : OOB 0.2556 : L 119 : T 93.9 sec
+ - d_sub 2200 : OOB 0.2551 : L 120 : T 94.6 sec
+ - d_sub 2200 : OOB 0.2560 : L 121 : T 95.3 sec
+ - d_sub 2200 : OOB 0.2571 : L 122 : T 96.0 sec
+ - d_sub 2200 : OOB 0.2572 : L 123 : T 96.7 sec
+ - d_sub 2200 : OOB 0.2574 : L 124 : T 97.4 sec
+ - d_sub 2200 : OOB 0.2564 : L 125 : T 98.2 sec
+ - d_sub 2200 : OOB 0.2557 : L 126 : T 99.0 sec
+ - d_sub 2200 : OOB 0.2565 : L 127 : T 99.9 sec
+ - d_sub 2200 : OOB 0.2568 : L 128 : T 100.7 sec
+ - d_sub 2200 : OOB 0.2559 : L 129 : T 101.6 sec
+ - d_sub 2200 : OOB 0.2556 : L 130 : T 102.5 sec
+ - d_sub 2200 : OOB 0.2561 : L 131 : T 103.3 sec
+ - d_sub 2200 : OOB 0.2568 : L 132 : T 104.1 sec
+ - d_sub 2200 : OOB 0.2552 : L 133 : T 104.9 sec
+ - d_sub 2200 : OOB 0.2552 : L 134 : T 105.6 sec
+ - d_sub 2200 : OOB 0.2542 : L 135 : T 106.3 sec
+
+ - d_sub 2400 : OOB 0.4430 : L 1 : T 0.8 sec
+ - d_sub 2400 : OOB 0.4023 : L 2 : T 1.7 sec
+ - d_sub 2400 : OOB 0.3816 : L 3 : T 2.5 sec
+ - d_sub 2400 : OOB 0.3691 : L 4 : T 3.3 sec
+ - d_sub 2400 : OOB 0.3596 : L 5 : T 4.2 sec
+ - d_sub 2400 : OOB 0.3509 : L 6 : T 5.1 sec
+ - d_sub 2400 : OOB 0.3445 : L 7 : T 6.1 sec
+ - d_sub 2400 : OOB 0.3484 : L 8 : T 7.0 sec
+ - d_sub 2400 : OOB 0.3450 : L 9 : T 8.0 sec
+ - d_sub 2400 : OOB 0.3366 : L 10 : T 9.0 sec
+ - d_sub 2400 : OOB 0.3268 : L 11 : T 10.0 sec
+ - d_sub 2400 : OOB 0.3256 : L 12 : T 11.0 sec
+ - d_sub 2400 : OOB 0.3122 : L 13 : T 12.0 sec
+ - d_sub 2400 : OOB 0.3092 : L 14 : T 13.0 sec
+ - d_sub 2400 : OOB 0.3021 : L 15 : T 13.8 sec
+ - d_sub 2400 : OOB 0.3003 : L 16 : T 14.6 sec
+ - d_sub 2400 : OOB 0.2939 : L 17 : T 15.4 sec
+ - d_sub 2400 : OOB 0.2949 : L 18 : T 16.2 sec
+ - d_sub 2400 : OOB 0.2923 : L 19 : T 17.0 sec
+ - d_sub 2400 : OOB 0.2894 : L 20 : T 17.8 sec
+ - d_sub 2400 : OOB 0.2845 : L 21 : T 18.6 sec
+ - d_sub 2400 : OOB 0.2852 : L 22 : T 19.5 sec
+ - d_sub 2400 : OOB 0.2846 : L 23 : T 20.5 sec
+ - d_sub 2400 : OOB 0.2811 : L 24 : T 21.4 sec
+ - d_sub 2400 : OOB 0.2818 : L 25 : T 22.4 sec
+ - d_sub 2400 : OOB 0.2815 : L 26 : T 23.4 sec
+ - d_sub 2400 : OOB 0.2834 : L 27 : T 24.3 sec
+ - d_sub 2400 : OOB 0.2815 : L 28 : T 25.4 sec
+ - d_sub 2400 : OOB 0.2791 : L 29 : T 26.5 sec
+ - d_sub 2400 : OOB 0.2787 : L 30 : T 27.3 sec
+ - d_sub 2400 : OOB 0.2782 : L 31 : T 28.2 sec
+ - d_sub 2400 : OOB 0.2806 : L 32 : T 29.0 sec
+ - d_sub 2400 : OOB 0.2769 : L 33 : T 29.8 sec
+ - d_sub 2400 : OOB 0.2765 : L 34 : T 30.6 sec
+ - d_sub 2400 : OOB 0.2794 : L 35 : T 31.5 sec
+ - d_sub 2400 : OOB 0.2771 : L 36 : T 32.3 sec
+ - d_sub 2400 : OOB 0.2744 : L 37 : T 33.3 sec
+ - d_sub 2400 : OOB 0.2761 : L 38 : T 34.3 sec
+ - d_sub 2400 : OOB 0.2762 : L 39 : T 35.4 sec
+ - d_sub 2400 : OOB 0.2769 : L 40 : T 36.3 sec
+ - d_sub 2400 : OOB 0.2762 : L 41 : T 37.3 sec
+ - d_sub 2400 : OOB 0.2755 : L 42 : T 38.2 sec
+ - d_sub 2400 : OOB 0.2720 : L 43 : T 39.2 sec
+ - d_sub 2400 : OOB 0.2715 : L 44 : T 40.2 sec
+ - d_sub 2400 : OOB 0.2709 : L 45 : T 41.2 sec
+ - d_sub 2400 : OOB 0.2726 : L 46 : T 42.0 sec
+ - d_sub 2400 : OOB 0.2695 : L 47 : T 42.8 sec
+ - d_sub 2400 : OOB 0.2681 : L 48 : T 43.6 sec
+ - d_sub 2400 : OOB 0.2665 : L 49 : T 44.3 sec
+ - d_sub 2400 : OOB 0.2681 : L 50 : T 45.1 sec
+ - d_sub 2400 : OOB 0.2672 : L 51 : T 45.9 sec
+ - d_sub 2400 : OOB 0.2686 : L 52 : T 46.7 sec
+ - d_sub 2400 : OOB 0.2685 : L 53 : T 47.7 sec
+ - d_sub 2400 : OOB 0.2646 : L 54 : T 48.6 sec
+ - d_sub 2400 : OOB 0.2663 : L 55 : T 49.5 sec
+ - d_sub 2400 : OOB 0.2653 : L 56 : T 50.4 sec
+ - d_sub 2400 : OOB 0.2650 : L 57 : T 51.4 sec
+ - d_sub 2400 : OOB 0.2655 : L 58 : T 52.3 sec
+ - d_sub 2400 : OOB 0.2654 : L 59 : T 53.3 sec
+ - d_sub 2400 : OOB 0.2642 : L 60 : T 54.2 sec
+ - d_sub 2400 : OOB 0.2640 : L 61 : T 55.0 sec
+ - d_sub 2400 : OOB 0.2644 : L 62 : T 55.7 sec
+ - d_sub 2400 : OOB 0.2617 : L 63 : T 56.6 sec
+ - d_sub 2400 : OOB 0.2630 : L 64 : T 57.4 sec
+ - d_sub 2400 : OOB 0.2626 : L 65 : T 58.2 sec
+ - d_sub 2400 : OOB 0.2610 : L 66 : T 59.0 sec
+ - d_sub 2400 : OOB 0.2641 : L 67 : T 59.8 sec
+ - d_sub 2400 : OOB 0.2620 : L 68 : T 60.6 sec
+ - d_sub 2400 : OOB 0.2617 : L 69 : T 61.5 sec
+ - d_sub 2400 : OOB 0.2623 : L 70 : T 62.5 sec
+ - d_sub 2400 : OOB 0.2609 : L 71 : T 63.4 sec
+ - d_sub 2400 : OOB 0.2609 : L 72 : T 64.2 sec
+ - d_sub 2400 : OOB 0.2623 : L 73 : T 65.2 sec
+ - d_sub 2400 : OOB 0.2605 : L 74 : T 66.0 sec
+ - d_sub 2400 : OOB 0.2595 : L 75 : T 66.9 sec
+ - d_sub 2400 : OOB 0.2592 : L 76 : T 67.8 sec
+ - d_sub 2400 : OOB 0.2581 : L 77 : T 68.7 sec
+ - d_sub 2400 : OOB 0.2590 : L 78 : T 69.6 sec
+ - d_sub 2400 : OOB 0.2588 : L 79 : T 70.5 sec
+ - d_sub 2400 : OOB 0.2601 : L 80 : T 71.4 sec
+ - d_sub 2400 : OOB 0.2584 : L 81 : T 72.4 sec
+ - d_sub 2400 : OOB 0.2571 : L 82 : T 73.4 sec
+ - d_sub 2400 : OOB 0.2575 : L 83 : T 74.4 sec
+ - d_sub 2400 : OOB 0.2567 : L 84 : T 75.5 sec
+ - d_sub 2400 : OOB 0.2582 : L 85 : T 76.6 sec
+ - d_sub 2400 : OOB 0.2579 : L 86 : T 77.6 sec
+ - d_sub 2400 : OOB 0.2564 : L 87 : T 78.6 sec
+ - d_sub 2400 : OOB 0.2570 : L 88 : T 79.5 sec
+ - d_sub 2400 : OOB 0.2589 : L 89 : T 80.5 sec
+ - d_sub 2400 : OOB 0.2580 : L 90 : T 81.5 sec
+ - d_sub 2400 : OOB 0.2569 : L 91 : T 82.3 sec
+ - d_sub 2400 : OOB 0.2579 : L 92 : T 83.1 sec
+ - d_sub 2400 : OOB 0.2596 : L 93 : T 84.0 sec
+ - d_sub 2400 : OOB 0.2579 : L 94 : T 85.0 sec
+ - d_sub 2400 : OOB 0.2595 : L 95 : T 85.9 sec
+ - d_sub 2400 : OOB 0.2591 : L 96 : T 86.8 sec
+ - d_sub 2400 : OOB 0.2586 : L 97 : T 87.8 sec
+ - d_sub 2400 : OOB 0.2580 : L 98 : T 88.8 sec
+ - d_sub 2400 : OOB 0.2602 : L 99 : T 89.8 sec
+ - d_sub 2400 : OOB 0.2605 : L 100 : T 90.8 sec
+ - d_sub 2400 : OOB 0.2594 : L 101 : T 91.9 sec
+ - d_sub 2400 : OOB 0.2596 : L 102 : T 93.1 sec
+ - d_sub 2400 : OOB 0.2587 : L 103 : T 94.1 sec
+ - d_sub 2400 : OOB 0.2599 : L 104 : T 95.2 sec
+ - d_sub 2400 : OOB 0.2578 : L 105 : T 96.1 sec
+ - d_sub 2400 : OOB 0.2581 : L 106 : T 96.9 sec
+ - d_sub 2400 : OOB 0.2576 : L 107 : T 97.8 sec
+ - d_sub 2400 : OOB 0.2574 : L 108 : T 98.8 sec
+ - d_sub 2400 : OOB 0.2576 : L 109 : T 99.7 sec
+ - d_sub 2400 : OOB 0.2563 : L 110 : T 100.6 sec
+ - d_sub 2400 : OOB 0.2579 : L 111 : T 101.5 sec
+ - d_sub 2400 : OOB 0.2569 : L 112 : T 102.4 sec
+ - d_sub 2400 : OOB 0.2587 : L 113 : T 103.5 sec
+ - d_sub 2400 : OOB 0.2578 : L 114 : T 104.4 sec
+ - d_sub 2400 : OOB 0.2570 : L 115 : T 105.4 sec
+# -------------------------
+optimal d_sub 2000 : OOB 0.2507 : L 142 : T 558.6 sec
+Testing error: 0.2563
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : automatic (min 25, max 500, length 50, eps 0.00500)
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 316652756
+#  - Seed 2 (bootstrap) : 517686879
+# -------------------------
+
+ - d_sub 300 : OOB 0.4372 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4010 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3834 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3677 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3580 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3541 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3404 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3383 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3344 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3306 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3270 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3254 : L 12 : T 0.6 sec
+ - d_sub 300 : OOB 0.3246 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3253 : L 14 : T 0.7 sec
+ - d_sub 300 : OOB 0.3190 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3219 : L 16 : T 0.8 sec
+ - d_sub 300 : OOB 0.3193 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3191 : L 18 : T 0.9 sec
+ - d_sub 300 : OOB 0.3190 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3190 : L 20 : T 1.0 sec
+ - d_sub 300 : OOB 0.3172 : L 21 : T 1.1 sec
+ - d_sub 300 : OOB 0.3165 : L 22 : T 1.1 sec
+ - d_sub 300 : OOB 0.3162 : L 23 : T 1.1 sec
+ - d_sub 300 : OOB 0.3154 : L 24 : T 1.2 sec
+ - d_sub 300 : OOB 0.3154 : L 25 : T 1.3 sec
+ - d_sub 300 : OOB 0.3161 : L 26 : T 1.3 sec
+ - d_sub 300 : OOB 0.3146 : L 27 : T 1.4 sec
+ - d_sub 300 : OOB 0.3137 : L 28 : T 1.4 sec
+ - d_sub 300 : OOB 0.3139 : L 29 : T 1.5 sec
+ - d_sub 300 : OOB 0.3129 : L 30 : T 1.5 sec
+ - d_sub 300 : OOB 0.3133 : L 31 : T 1.6 sec
+ - d_sub 300 : OOB 0.3153 : L 32 : T 1.6 sec
+ - d_sub 300 : OOB 0.3151 : L 33 : T 1.7 sec
+ - d_sub 300 : OOB 0.3170 : L 34 : T 1.7 sec
+ - d_sub 300 : OOB 0.3164 : L 35 : T 1.8 sec
+ - d_sub 300 : OOB 0.3153 : L 36 : T 1.8 sec
+ - d_sub 300 : OOB 0.3155 : L 37 : T 1.9 sec
+ - d_sub 300 : OOB 0.3126 : L 38 : T 1.9 sec
+ - d_sub 300 : OOB 0.3128 : L 39 : T 2.0 sec
+ - d_sub 300 : OOB 0.3128 : L 40 : T 2.0 sec
+ - d_sub 300 : OOB 0.3127 : L 41 : T 2.1 sec
+ - d_sub 300 : OOB 0.3086 : L 42 : T 2.1 sec
+ - d_sub 300 : OOB 0.3102 : L 43 : T 2.2 sec
+ - d_sub 300 : OOB 0.3112 : L 44 : T 2.2 sec
+ - d_sub 300 : OOB 0.3095 : L 45 : T 2.3 sec
+ - d_sub 300 : OOB 0.3104 : L 46 : T 2.3 sec
+ - d_sub 300 : OOB 0.3109 : L 47 : T 2.4 sec
+ - d_sub 300 : OOB 0.3091 : L 48 : T 2.4 sec
+ - d_sub 300 : OOB 0.3093 : L 49 : T 2.5 sec
+ - d_sub 300 : OOB 0.3076 : L 50 : T 2.5 sec
+ - d_sub 300 : OOB 0.3088 : L 51 : T 2.6 sec
+ - d_sub 300 : OOB 0.3084 : L 52 : T 2.6 sec
+ - d_sub 300 : OOB 0.3073 : L 53 : T 2.7 sec
+ - d_sub 300 : OOB 0.3089 : L 54 : T 2.7 sec
+ - d_sub 300 : OOB 0.3088 : L 55 : T 2.8 sec
+ - d_sub 300 : OOB 0.3096 : L 56 : T 2.8 sec
+ - d_sub 300 : OOB 0.3108 : L 57 : T 2.9 sec
+ - d_sub 300 : OOB 0.3095 : L 58 : T 3.0 sec
+ - d_sub 300 : OOB 0.3121 : L 59 : T 3.0 sec
+ - d_sub 300 : OOB 0.3092 : L 60 : T 3.1 sec
+ - d_sub 300 : OOB 0.3111 : L 61 : T 3.1 sec
+ - d_sub 300 : OOB 0.3103 : L 62 : T 3.2 sec
+ - d_sub 300 : OOB 0.3112 : L 63 : T 3.3 sec
+ - d_sub 300 : OOB 0.3114 : L 64 : T 3.3 sec
+ - d_sub 300 : OOB 0.3088 : L 65 : T 3.4 sec
+ - d_sub 300 : OOB 0.3097 : L 66 : T 3.5 sec
+ - d_sub 300 : OOB 0.3110 : L 67 : T 3.5 sec
+ - d_sub 300 : OOB 0.3108 : L 68 : T 3.6 sec
+ - d_sub 300 : OOB 0.3089 : L 69 : T 3.7 sec
+ - d_sub 300 : OOB 0.3101 : L 70 : T 3.7 sec
+ - d_sub 300 : OOB 0.3095 : L 71 : T 3.8 sec
+ - d_sub 300 : OOB 0.3081 : L 72 : T 3.8 sec
+ - d_sub 300 : OOB 0.3080 : L 73 : T 3.9 sec
+ - d_sub 300 : OOB 0.3084 : L 74 : T 4.0 sec
+ - d_sub 300 : OOB 0.3090 : L 75 : T 4.0 sec
+ - d_sub 300 : OOB 0.3083 : L 76 : T 4.1 sec
+ - d_sub 300 : OOB 0.3086 : L 77 : T 4.2 sec
+ - d_sub 300 : OOB 0.3073 : L 78 : T 4.2 sec
+ - d_sub 300 : OOB 0.3094 : L 79 : T 4.3 sec
+ - d_sub 300 : OOB 0.3091 : L 80 : T 4.4 sec
+ - d_sub 300 : OOB 0.3080 : L 81 : T 4.4 sec
+ - d_sub 300 : OOB 0.3081 : L 82 : T 4.5 sec
+ - d_sub 300 : OOB 0.3079 : L 83 : T 4.5 sec
+ - d_sub 300 : OOB 0.3061 : L 84 : T 4.6 sec
+ - d_sub 300 : OOB 0.3069 : L 85 : T 4.7 sec
+ - d_sub 300 : OOB 0.3077 : L 86 : T 4.7 sec
+ - d_sub 300 : OOB 0.3077 : L 87 : T 4.8 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3077 : L 87 : T 4.8 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 505645884
+#  - Seed 2 (bootstrap) : 522217764
+# -------------------------
+
+ - d_sub 300 : OOB 0.4469 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4112 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3938 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3787 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3657 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3592 : L 6 : T 0.4 sec
+ - d_sub 300 : OOB 0.3485 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3467 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3407 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3355 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3328 : L 11 : T 0.7 sec
+ - d_sub 300 : OOB 0.3280 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3269 : L 13 : T 0.8 sec
+ - d_sub 300 : OOB 0.3224 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3190 : L 15 : T 0.9 sec
+ - d_sub 300 : OOB 0.3225 : L 16 : T 1.0 sec
+ - d_sub 300 : OOB 0.3200 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3200 : L 18 : T 1.1 sec
+ - d_sub 300 : OOB 0.3184 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3182 : L 20 : T 1.2 sec
+ - d_sub 300 : OOB 0.3165 : L 21 : T 1.3 sec
+ - d_sub 300 : OOB 0.3180 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3176 : L 23 : T 1.4 sec
+ - d_sub 300 : OOB 0.3171 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3163 : L 25 : T 1.5 sec
+ - d_sub 300 : OOB 0.3170 : L 26 : T 1.6 sec
+ - d_sub 300 : OOB 0.3172 : L 27 : T 1.6 sec
+ - d_sub 300 : OOB 0.3159 : L 28 : T 1.7 sec
+ - d_sub 300 : OOB 0.3163 : L 29 : T 1.7 sec
+ - d_sub 300 : OOB 0.3169 : L 30 : T 1.8 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3169 : L 30 : T 1.8 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 169346455
+#  - Seed 2 (bootstrap) : 616510636
+# -------------------------
+
+ - d_sub 300 : OOB 0.4436 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4096 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3867 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3694 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3561 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3522 : L 6 : T 0.4 sec
+ - d_sub 300 : OOB 0.3404 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3335 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3302 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3302 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3236 : L 11 : T 0.7 sec
+ - d_sub 300 : OOB 0.3210 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3215 : L 13 : T 0.8 sec
+ - d_sub 300 : OOB 0.3161 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3176 : L 15 : T 0.9 sec
+ - d_sub 300 : OOB 0.3120 : L 16 : T 1.0 sec
+ - d_sub 300 : OOB 0.3126 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3134 : L 18 : T 1.1 sec
+ - d_sub 300 : OOB 0.3149 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3138 : L 20 : T 1.2 sec
+ - d_sub 300 : OOB 0.3152 : L 21 : T 1.3 sec
+ - d_sub 300 : OOB 0.3140 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3152 : L 23 : T 1.4 sec
+ - d_sub 300 : OOB 0.3162 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3167 : L 25 : T 1.5 sec
+ - d_sub 300 : OOB 0.3146 : L 26 : T 1.6 sec
+ - d_sub 300 : OOB 0.3163 : L 27 : T 1.6 sec
+ - d_sub 300 : OOB 0.3140 : L 28 : T 1.7 sec
+ - d_sub 300 : OOB 0.3148 : L 29 : T 1.8 sec
+ - d_sub 300 : OOB 0.3164 : L 30 : T 1.8 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3164 : L 30 : T 1.8 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 308395648
+#  - Seed 2 (bootstrap) : 174084009
+# -------------------------
+
+ - d_sub 300 : OOB 0.4422 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4058 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3848 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3737 : L 4 : T 0.3 sec
+ - d_sub 300 : OOB 0.3574 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3546 : L 6 : T 0.4 sec
+ - d_sub 300 : OOB 0.3417 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3355 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3335 : L 9 : T 0.6 sec
+ - d_sub 300 : OOB 0.3317 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3234 : L 11 : T 0.7 sec
+ - d_sub 300 : OOB 0.3228 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3202 : L 13 : T 0.8 sec
+ - d_sub 300 : OOB 0.3210 : L 14 : T 0.9 sec
+ - d_sub 300 : OOB 0.3201 : L 15 : T 0.9 sec
+ - d_sub 300 : OOB 0.3203 : L 16 : T 1.0 sec
+ - d_sub 300 : OOB 0.3174 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3181 : L 18 : T 1.1 sec
+ - d_sub 300 : OOB 0.3163 : L 19 : T 1.2 sec
+ - d_sub 300 : OOB 0.3186 : L 20 : T 1.2 sec
+ - d_sub 300 : OOB 0.3190 : L 21 : T 1.3 sec
+ - d_sub 300 : OOB 0.3171 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3178 : L 23 : T 1.4 sec
+ - d_sub 300 : OOB 0.3196 : L 24 : T 1.5 sec
+ - d_sub 300 : OOB 0.3190 : L 25 : T 1.5 sec
+ - d_sub 300 : OOB 0.3172 : L 26 : T 1.6 sec
+ - d_sub 300 : OOB 0.3167 : L 27 : T 1.8 sec
+ - d_sub 300 : OOB 0.3176 : L 28 : T 1.8 sec
+ - d_sub 300 : OOB 0.3148 : L 29 : T 1.9 sec
+ - d_sub 300 : OOB 0.3168 : L 30 : T 1.9 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3168 : L 30 : T 1.9 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 709950823
+#  - Seed 2 (bootstrap) : 734786608
+# -------------------------
+
+ - d_sub 300 : OOB 0.4433 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4067 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3894 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3693 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3560 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3564 : L 6 : T 0.4 sec
+ - d_sub 300 : OOB 0.3447 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3408 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3370 : L 9 : T 0.6 sec
+ - d_sub 300 : OOB 0.3335 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3323 : L 11 : T 0.7 sec
+ - d_sub 300 : OOB 0.3265 : L 12 : T 0.8 sec
+ - d_sub 300 : OOB 0.3286 : L 13 : T 0.8 sec
+ - d_sub 300 : OOB 0.3279 : L 14 : T 0.9 sec
+ - d_sub 300 : OOB 0.3238 : L 15 : T 0.9 sec
+ - d_sub 300 : OOB 0.3232 : L 16 : T 1.0 sec
+ - d_sub 300 : OOB 0.3228 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3230 : L 18 : T 1.1 sec
+ - d_sub 300 : OOB 0.3225 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3183 : L 20 : T 1.2 sec
+ - d_sub 300 : OOB 0.3180 : L 21 : T 1.3 sec
+ - d_sub 300 : OOB 0.3179 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3183 : L 23 : T 1.4 sec
+ - d_sub 300 : OOB 0.3167 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3167 : L 25 : T 1.5 sec
+ - d_sub 300 : OOB 0.3170 : L 26 : T 1.5 sec
+ - d_sub 300 : OOB 0.3178 : L 27 : T 1.6 sec
+ - d_sub 300 : OOB 0.3167 : L 28 : T 1.6 sec
+ - d_sub 300 : OOB 0.3149 : L 29 : T 1.7 sec
+ - d_sub 300 : OOB 0.3144 : L 30 : T 1.7 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3144 : L 30 : T 1.7 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 786594460
+#  - Seed 2 (bootstrap) : 7661234
+# -------------------------
+
+ - d_sub 300 : OOB 0.4429 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4033 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3843 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3710 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3598 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3502 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3442 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3380 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3348 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3327 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3265 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3289 : L 12 : T 0.6 sec
+ - d_sub 300 : OOB 0.3289 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3226 : L 14 : T 0.7 sec
+ - d_sub 300 : OOB 0.3274 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3217 : L 16 : T 0.8 sec
+ - d_sub 300 : OOB 0.3212 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3199 : L 18 : T 0.9 sec
+ - d_sub 300 : OOB 0.3206 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3189 : L 20 : T 1.0 sec
+ - d_sub 300 : OOB 0.3197 : L 21 : T 1.1 sec
+ - d_sub 300 : OOB 0.3189 : L 22 : T 1.1 sec
+ - d_sub 300 : OOB 0.3166 : L 23 : T 1.2 sec
+ - d_sub 300 : OOB 0.3178 : L 24 : T 1.2 sec
+ - d_sub 300 : OOB 0.3184 : L 25 : T 1.3 sec
+ - d_sub 300 : OOB 0.3161 : L 26 : T 1.3 sec
+ - d_sub 300 : OOB 0.3147 : L 27 : T 1.4 sec
+ - d_sub 300 : OOB 0.3139 : L 28 : T 1.5 sec
+ - d_sub 300 : OOB 0.3151 : L 29 : T 1.5 sec
+ - d_sub 300 : OOB 0.3160 : L 30 : T 1.6 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3160 : L 30 : T 1.6 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 980418791
+#  - Seed 2 (bootstrap) : 418033618
+# -------------------------
+
+ - d_sub 300 : OOB 0.4420 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4072 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3888 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3747 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3624 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3610 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3521 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3487 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3417 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3364 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3339 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3319 : L 12 : T 0.6 sec
+ - d_sub 300 : OOB 0.3307 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3328 : L 14 : T 0.7 sec
+ - d_sub 300 : OOB 0.3275 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3304 : L 16 : T 0.8 sec
+ - d_sub 300 : OOB 0.3256 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3267 : L 18 : T 0.9 sec
+ - d_sub 300 : OOB 0.3263 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3252 : L 20 : T 1.0 sec
+ - d_sub 300 : OOB 0.3205 : L 21 : T 1.1 sec
+ - d_sub 300 : OOB 0.3216 : L 22 : T 1.2 sec
+ - d_sub 300 : OOB 0.3245 : L 23 : T 1.2 sec
+ - d_sub 300 : OOB 0.3224 : L 24 : T 1.3 sec
+ - d_sub 300 : OOB 0.3191 : L 25 : T 1.3 sec
+ - d_sub 300 : OOB 0.3173 : L 26 : T 1.4 sec
+ - d_sub 300 : OOB 0.3196 : L 27 : T 1.4 sec
+ - d_sub 300 : OOB 0.3185 : L 28 : T 1.5 sec
+ - d_sub 300 : OOB 0.3188 : L 29 : T 1.5 sec
+ - d_sub 300 : OOB 0.3175 : L 30 : T 1.6 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3175 : L 30 : T 1.6 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 257923879
+#  - Seed 2 (bootstrap) : 897920306
+# -------------------------
+
+ - d_sub 300 : OOB 0.4419 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4098 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3897 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3735 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3595 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3573 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3444 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3415 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3388 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3341 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3340 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3309 : L 12 : T 0.6 sec
+ - d_sub 300 : OOB 0.3311 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3288 : L 14 : T 0.7 sec
+ - d_sub 300 : OOB 0.3257 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3282 : L 16 : T 0.8 sec
+ - d_sub 300 : OOB 0.3222 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3238 : L 18 : T 0.9 sec
+ - d_sub 300 : OOB 0.3211 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3209 : L 20 : T 1.0 sec
+ - d_sub 300 : OOB 0.3207 : L 21 : T 1.1 sec
+ - d_sub 300 : OOB 0.3206 : L 22 : T 1.1 sec
+ - d_sub 300 : OOB 0.3179 : L 23 : T 1.2 sec
+ - d_sub 300 : OOB 0.3171 : L 24 : T 1.2 sec
+ - d_sub 300 : OOB 0.3173 : L 25 : T 1.3 sec
+ - d_sub 300 : OOB 0.3190 : L 26 : T 1.3 sec
+ - d_sub 300 : OOB 0.3193 : L 27 : T 1.4 sec
+ - d_sub 300 : OOB 0.3171 : L 28 : T 1.5 sec
+ - d_sub 300 : OOB 0.3153 : L 29 : T 1.5 sec
+ - d_sub 300 : OOB 0.3158 : L 30 : T 1.6 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3158 : L 30 : T 1.6 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 628260445
+#  - Seed 2 (bootstrap) : 929184716
+# -------------------------
+
+ - d_sub 300 : OOB 0.4337 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4006 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3814 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3688 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3517 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3498 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3417 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3360 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3316 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3321 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3269 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3237 : L 12 : T 0.6 sec
+ - d_sub 300 : OOB 0.3224 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3196 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3181 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3203 : L 16 : T 0.9 sec
+ - d_sub 300 : OOB 0.3164 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3162 : L 18 : T 1.0 sec
+ - d_sub 300 : OOB 0.3140 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3165 : L 20 : T 1.1 sec
+ - d_sub 300 : OOB 0.3175 : L 21 : T 1.2 sec
+ - d_sub 300 : OOB 0.3154 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3167 : L 23 : T 1.3 sec
+ - d_sub 300 : OOB 0.3170 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3182 : L 25 : T 1.4 sec
+ - d_sub 300 : OOB 0.3182 : L 26 : T 1.5 sec
+ - d_sub 300 : OOB 0.3179 : L 27 : T 1.6 sec
+ - d_sub 300 : OOB 0.3163 : L 28 : T 1.6 sec
+ - d_sub 300 : OOB 0.3138 : L 29 : T 1.7 sec
+ - d_sub 300 : OOB 0.3139 : L 30 : T 1.8 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3139 : L 30 : T 1.8 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 176549929
+#  - Seed 2 (bootstrap) : 524729881
+# -------------------------
+
+ - d_sub 300 : OOB 0.4397 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4018 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3883 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3688 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3584 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3571 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3455 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3413 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3378 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3322 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3278 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3259 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3249 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3255 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3198 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3231 : L 16 : T 0.9 sec
+ - d_sub 300 : OOB 0.3179 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3183 : L 18 : T 1.0 sec
+ - d_sub 300 : OOB 0.3198 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3203 : L 20 : T 1.1 sec
+ - d_sub 300 : OOB 0.3175 : L 21 : T 1.2 sec
+ - d_sub 300 : OOB 0.3200 : L 22 : T 1.2 sec
+ - d_sub 300 : OOB 0.3201 : L 23 : T 1.3 sec
+ - d_sub 300 : OOB 0.3173 : L 24 : T 1.3 sec
+ - d_sub 300 : OOB 0.3161 : L 25 : T 1.4 sec
+ - d_sub 300 : OOB 0.3160 : L 26 : T 1.4 sec
+ - d_sub 300 : OOB 0.3172 : L 27 : T 1.5 sec
+ - d_sub 300 : OOB 0.3158 : L 28 : T 1.5 sec
+ - d_sub 300 : OOB 0.3157 : L 29 : T 1.6 sec
+ - d_sub 300 : OOB 0.3153 : L 30 : T 1.6 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3153 : L 30 : T 1.6 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 648662016
+#  - Seed 2 (bootstrap) : 441216917
+# -------------------------
+
+ - d_sub 300 : OOB 0.4371 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4004 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3851 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3707 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3578 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3572 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3462 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3445 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3389 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3355 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3323 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3285 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3283 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3297 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3254 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3260 : L 16 : T 0.9 sec
+ - d_sub 300 : OOB 0.3263 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3230 : L 18 : T 1.0 sec
+ - d_sub 300 : OOB 0.3244 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3225 : L 20 : T 1.1 sec
+ - d_sub 300 : OOB 0.3230 : L 21 : T 1.2 sec
+ - d_sub 300 : OOB 0.3217 : L 22 : T 1.2 sec
+ - d_sub 300 : OOB 0.3229 : L 23 : T 1.3 sec
+ - d_sub 300 : OOB 0.3205 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3191 : L 25 : T 1.4 sec
+ - d_sub 300 : OOB 0.3195 : L 26 : T 1.5 sec
+ - d_sub 300 : OOB 0.3203 : L 27 : T 1.5 sec
+ - d_sub 300 : OOB 0.3165 : L 28 : T 1.6 sec
+ - d_sub 300 : OOB 0.3175 : L 29 : T 1.7 sec
+ - d_sub 300 : OOB 0.3133 : L 30 : T 1.7 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3133 : L 30 : T 1.7 sec
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 86569997
+#  - Seed 2 (bootstrap) : 830834357
+# -------------------------
+
+ - d_sub 300 : OOB 0.4437 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4058 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3878 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3663 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3538 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3512 : L 6 : T 0.3 sec
+ - d_sub 300 : OOB 0.3404 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3352 : L 8 : T 0.4 sec
+ - d_sub 300 : OOB 0.3325 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3286 : L 10 : T 0.5 sec
+ - d_sub 300 : OOB 0.3274 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3265 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3247 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3236 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3192 : L 15 : T 0.8 sec
+ - d_sub 300 : OOB 0.3196 : L 16 : T 0.9 sec
+ - d_sub 300 : OOB 0.3165 : L 17 : T 0.9 sec
+ - d_sub 300 : OOB 0.3179 : L 18 : T 1.0 sec
+ - d_sub 300 : OOB 0.3206 : L 19 : T 1.0 sec
+ - d_sub 300 : OOB 0.3198 : L 20 : T 1.1 sec
+ - d_sub 300 : OOB 0.3170 : L 21 : T 1.2 sec
+ - d_sub 300 : OOB 0.3171 : L 22 : T 1.2 sec
+ - d_sub 300 : OOB 0.3187 : L 23 : T 1.3 sec
+ - d_sub 300 : OOB 0.3163 : L 24 : T 1.3 sec
+ - d_sub 300 : OOB 0.3135 : L 25 : T 1.4 sec
+ - d_sub 300 : OOB 0.3117 : L 26 : T 1.4 sec
+ - d_sub 300 : OOB 0.3121 : L 27 : T 1.5 sec
+ - d_sub 300 : OOB 0.3110 : L 28 : T 1.6 sec
+ - d_sub 300 : OOB 0.3109 : L 29 : T 1.6 sec
+ - d_sub 300 : OOB 0.3104 : L 30 : T 1.7 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3104 : L 30 : T 1.7 sec
+# -------------------------
+Average OOB error = 0.31498 (+/- 0.00208)
+# -------------------------
+# Ensemble classification
+#  - Training samples: 10000 (5000/5000)
+#  - Feature-space dimensionality: 24157
+#  - L : 30
+#  - d_sub : 300
+#  - Seed 1 (subspaces) : 5
+#  - Seed 2 (bootstrap) : 73
+# -------------------------
+
+ - d_sub 300 : OOB 0.4369 : L 1 : T 0.1 sec
+ - d_sub 300 : OOB 0.4052 : L 2 : T 0.1 sec
+ - d_sub 300 : OOB 0.3839 : L 3 : T 0.2 sec
+ - d_sub 300 : OOB 0.3664 : L 4 : T 0.2 sec
+ - d_sub 300 : OOB 0.3504 : L 5 : T 0.3 sec
+ - d_sub 300 : OOB 0.3470 : L 6 : T 0.4 sec
+ - d_sub 300 : OOB 0.3417 : L 7 : T 0.4 sec
+ - d_sub 300 : OOB 0.3400 : L 8 : T 0.5 sec
+ - d_sub 300 : OOB 0.3330 : L 9 : T 0.5 sec
+ - d_sub 300 : OOB 0.3317 : L 10 : T 0.6 sec
+ - d_sub 300 : OOB 0.3294 : L 11 : T 0.6 sec
+ - d_sub 300 : OOB 0.3253 : L 12 : T 0.7 sec
+ - d_sub 300 : OOB 0.3245 : L 13 : T 0.7 sec
+ - d_sub 300 : OOB 0.3254 : L 14 : T 0.8 sec
+ - d_sub 300 : OOB 0.3226 : L 15 : T 0.9 sec
+ - d_sub 300 : OOB 0.3202 : L 16 : T 0.9 sec
+ - d_sub 300 : OOB 0.3218 : L 17 : T 1.0 sec
+ - d_sub 300 : OOB 0.3188 : L 18 : T 1.0 sec
+ - d_sub 300 : OOB 0.3194 : L 19 : T 1.1 sec
+ - d_sub 300 : OOB 0.3208 : L 20 : T 1.1 sec
+ - d_sub 300 : OOB 0.3185 : L 21 : T 1.2 sec
+ - d_sub 300 : OOB 0.3163 : L 22 : T 1.3 sec
+ - d_sub 300 : OOB 0.3146 : L 23 : T 1.3 sec
+ - d_sub 300 : OOB 0.3161 : L 24 : T 1.4 sec
+ - d_sub 300 : OOB 0.3165 : L 25 : T 1.4 sec
+ - d_sub 300 : OOB 0.3142 : L 26 : T 1.5 sec
+ - d_sub 300 : OOB 0.3131 : L 27 : T 1.5 sec
+ - d_sub 300 : OOB 0.3134 : L 28 : T 1.6 sec
+ - d_sub 300 : OOB 0.3119 : L 29 : T 1.7 sec
+ - d_sub 300 : OOB 0.3132 : L 30 : T 1.7 sec
+# -------------------------
+optimal d_sub 300 : OOB 0.3132 : L 30 : T 1.7 sec
+OOB error = 0.3159
+optimal d_sub 300 : OOB 0.3181 : L 30 : T 1.5 sec
+optimal d_sub 300 : OOB 0.3080 : L 90 : T 4.9 sec
+Testing error 1: 0.3148
+optimal d_sub 300 : OOB 0.3143 : L 97 : T 5.1 sec
+Testing error 2: 0.3085
+optimal d_sub 300 : OOB 0.3141 : L 94 : T 5.4 sec
+Testing error 3: 0.3071
+optimal d_sub 300 : OOB 0.3130 : L 87 : T 4.7 sec
+Testing error 4: 0.3097
+optimal d_sub 300 : OOB 0.3102 : L 75 : T 4.4 sec
+Testing error 5: 0.3086
+optimal d_sub 300 : OOB 0.3089 : L 94 : T 4.8 sec
+Testing error 6: 0.3069
+optimal d_sub 300 : OOB 0.3166 : L 71 : T 4.2 sec
+Testing error 7: 0.3108
+optimal d_sub 300 : OOB 0.3126 : L 79 : T 3.9 sec
+Testing error 8: 0.3072
+optimal d_sub 300 : OOB 0.3185 : L 89 : T 5.1 sec
+Testing error 9: 0.3106
+optimal d_sub 300 : OOB 0.3203 : L 81 : T 4.2 sec
+Testing error 10: 0.3044
+---
+Average testing error over 10 splits: 0.3089 (+/- 0.0028)
