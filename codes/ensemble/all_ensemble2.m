@@ -1,7 +1,9 @@
 function all_ensemble2(src, dst)
-    all_analysis = [{'CRM'}, {'GCRM'}, {'SGRM'}];
-    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
-                        {'SUNIWARD_CMD_C'}];
+    all_analysis = [{'CRM'}, {'SGRM'}];
+    %    all_analysis = [{'CRM'}, {'GCRM'}, {'SGRM'}];
+    %     all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
+    %                         {'SUNIWARD_CMD_C'}];
+    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}];
     if exist(dst, 'dir')==0
         mkdir(dst);
     end
@@ -37,7 +39,7 @@ function all_ensemble2(src, dst)
                 stego_split = regexp(stego_list(j).name, '_', 'split');
                 flag = isequal(stego_split{end}, [all_analysis{u} '.mat']);
                 
-                if mod(embedding_rate, 20)==0 && flag
+                if mod(embedding_rate, 10)==0 && flag
                     stego_filter(k) = {stego_list(j).name};
                     k = k+1;
                     fprintf('stego filter: %s\n', stego_list(j).name)
@@ -49,7 +51,7 @@ function all_ensemble2(src, dst)
                              stego_filter{j}];
                 log = [dst all_steganography{i}];
                 %                fprintf('%s\n%s\n', stego, log)
-                ensemble2(cover, stego, log, 10);
+                ensemble2(cover, stego, log, 1);
             end
         end
         fprintf('\n');

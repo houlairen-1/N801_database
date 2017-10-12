@@ -9,8 +9,9 @@ function all_combine(root_path)
     combine([root_path, crm(1).name], [root_path, sgrm(1).name], ...
             false);
     
-    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
-                        {'SUNIWARD_CMD_C'}];
+    %     all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
+    %                         {'SUNIWARD_CMD_C'}];
+    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}];
     for i=1:numel(all_steganography)
         % only 0.2 and 0.4 bpp
         stego_list = dir([[root_path, all_steganography{i}] filesep ...
@@ -27,7 +28,7 @@ function all_combine(root_path)
                    isequal(stego_split{end}, '6000.mat') || ...
                    isequal(stego_split{end}, '4406.mat');
 
-            if mod(embedding_rate, 20)==0 && flag
+            if mod(embedding_rate, 10)==0 && flag  % 10:(10,30,50); 0:(20, 40)
                 stego_filter(k) = {stego_list(j).name};
                 k = k+1;
                 fprintf('filter: %s\n', stego_list(j).name)

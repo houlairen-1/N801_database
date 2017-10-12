@@ -1,0 +1,23 @@
+Testing error 1836: 0.1530
+Time for ensemble 1836: 0.1398 hours 
+Testing error 1837: 0.1490
+Time for ensemble 1837: 0.0827 hours 
+Testing error 1838: 0.1501
+Time for ensemble 1838: 0.1313 hours 
+Testing error 1839: 0.1509
+Time for ensemble 1839: 0.0897 hours 
+Testing error 1840: 0.1520
+Time for ensemble 1840: 0.1088 hours 
+Testing error 1841: 0.1526
+Time for ensemble 1841: 0.1249 hours 
+Testing error 1842: 0.1545
+Time for ensemble 1842: 0.0682 hours 
+Testing error 1843: 0.1552
+Time for ensemble 1843: 0.1367 hours 
+Testing error 1844: 0.1549
+Time for ensemble 1844: 0.0672 hours 
+Testing error 1845: 0.1523
+Time for ensemble 1845: 0.1083 hours 
+Average time over 10 splits for ensemble: 0.1057 hours 
+-----------
+Average testing error over 10 splits: 0.1525 (+/- 0.0021)

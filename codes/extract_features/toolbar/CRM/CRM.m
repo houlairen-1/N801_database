@@ -1,5 +1,5 @@
 function CRM(img_path,t_file,img_count)
-    if exist(t_file,'file')~=0
+    if exist([t_file '.mat'],'file')~=0
         fprintf('The file %s has existed!\r\n',t_file);
         return;
     end

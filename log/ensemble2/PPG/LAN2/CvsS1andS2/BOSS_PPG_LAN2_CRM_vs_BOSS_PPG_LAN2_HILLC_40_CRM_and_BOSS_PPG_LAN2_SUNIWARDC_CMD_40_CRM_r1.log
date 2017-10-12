@@ -1,0 +1,5 @@
+Testing error 1836: 0.3400
+Time for ensemble 1836: 0.5582 hours 
+Average time over 1 splits for ensemble: 0.5582 hours 
+-----------
+Average testing error over 1 splits: 0.3400 (+/- 0.0000)

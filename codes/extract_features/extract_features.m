@@ -44,14 +44,16 @@ function extract_features(src, dst, analysis, contain_cover)
         end
         %        fprintf('mat_file is %s\n', mat_file);
         if exist([mat_file, '.mat'], 'file') == 0
+            %            fprintf('%s do not existed\n', [mat_file, '.mat']);
             analysis_func(image_path,mat_file,image_num);
         else
             fprintf('%s existed\n', [mat_file, '.mat']);
         end
     end
     
-    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
-                        {'SUNIWARD_CMD_C'}];
+    %     all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}, {'SUNIWARD_C'}, ...
+    %                         {'SUNIWARD_CMD_C'}];
+    all_steganography = [{'HILL_C'}, {'HILL_CMD_C'}];
     for i = 1:numel(all_steganography)
         folder = [dst all_steganography{i}];
         if exist(folder)==0
@@ -84,6 +86,7 @@ function extract_features(src, dst, analysis, contain_cover)
                 mat_file = [mat_file '_4406'];
             end
             if exist([mat_file, '.mat'], 'file') == 0
+                %                fprintf('%s do not existed\n', [mat_file, '.mat']);
                 analysis_func(image_path,mat_file,image_num);
             else
                 fprintf('%s existed\n', [mat_file, '.mat']);
